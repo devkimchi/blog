@@ -81,6 +81,13 @@ https://gist.github.com/justinyoo/0516447045d0ef3c606d7e84f0ecd872?file=04-activ
 The payload passed from the orchestration function is wrapped with another object for the [`repository_dispatch` API][gh api repository dispatch] (line #16). Once the activity function calls the API, it triggers the [GitHub Actions workflow][gh actions repository dispatch].
 
 
+### Webhook Function ###
+
+This function is almost identical to the activity function. The only difference is that it sets the event type of `publish` (line #18). I'll discuss this later in this post.
+
+https://gist.github.com/justinyoo/0516447045d0ef3c606d7e84f0ecd872?file=05-webhook.cs&highlights=18
+
+
 ## Designing GitHub Actions ##
 
 So, we got the workflow on the Durable Functions side, which sends a scheduled event to GitHub. Now, the [GitHub Actions workflow][gh actions repository dispatch] takes the event and runs its own pipeline workflow. Let's have a look at the picture below that describes the end-to-end workflow.
@@ -94,11 +101,13 @@ So, we got the workflow on the Durable Functions side, which sends a scheduled e
 
 ![][image-02]
 
-You got the [Durable Functions][az func durable] covered above. The second [GitHub Actions][gh actions] was handled by [the other post][post prev]. This section takes the first [GitHub Actions][gh actions] using the [`repository dispatch` event][gh actions repository dispatch]. Let's take a look at the following YAML definition. This workflow is only triggered by the [`repository_dispatch` event][gh actions repository dispatch] (line #3). In addition to the trigger, it runs the workflow only if the `if` statement meets &ndash; the event type MUST match with `merge-pr` (line #8). The workflow itself is simple. We've previously got the PR, and the workflow uses the [`github-pr-merge-action` action][gh actions merge] to merge the PR (line #14).
+You got the [Durable Functions][az func durable] covered above. The second [GitHub Actions][gh actions] was handled by [the other post][post prev]. This section takes the first [GitHub Actions][gh actions] using the [`repository dispatch` event][gh actions repository dispatch]. Let's take a look at the following YAML definition. This workflow is only triggered by the [`repository_dispatch` event][gh actions repository dispatch] (line #3). In addition to the trigger, it runs the workflow only if the `if` statement meets &ndash; the event type MUST match with `merge-pr` (line #8). The workflow itself is pretty straightforward. We've previously got the PR, and the workflow uses the [`github-pr-merge-action` action][gh actions merge] to merge the PR (line #14).
 
-https://gist.github.com/justinyoo/0516447045d0ef3c606d7e84f0ecd872?file=05-workflow.yaml&highlights=3,8,14
+https://gist.github.com/justinyoo/0516447045d0ef3c606d7e84f0ecd872?file=05-workflow.yaml&highlights=3,8,14,24-27
 
 > **NOTE**: The [GitHub PR Merge action][gh actions merge] is that I contribute. 🙈
+
+Please note. The next workflow should have been automatically triggered for deployment. But this is not the case. Therefore, you should manually execute the deployment workflow. However, GitHub Action doesn't support manual trigger at the time of this writing. Instead, you can use the [`repository_dispatch` event][gh actions repository dispatch] that triggers the deployment workflow as a workaround (line #24-27). As we wrote the webhook function earlier, this workflow will call the webhook to raise the `publish` event.
 
 Once the merge succeeds, it triggers the next GitHub Actions workflow, and the new post is published!
 
