@@ -13,6 +13,11 @@ cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/app-provisioning
 fullscreen: true
 ---
 
+Throughout this post series, let's find out an example how [Power Platform][pw platform] increases productivity by simplifying an ad-hoc workflow to provision resources like [Azure VM][az vm] onto Azure.
+
+* ***Auto-installing Applications on Azure VM with Chocolatey for Live Streaming***
+* [Ad-hoc Azure Resource Provisioning via Power Platform][post next]
+
 Everything has gone. I mean all off-line meetups and conferences disappeared. Instead, they have gone virtual &ndash; online meetups and conferences. For community events, they have two options &ndash; one that purchases a solution for online events, and the other that build a live streaming solution by themselves. If you are a community event organiser and running a live streaming session by yourself, it doesn't really matter whether you install all necessary applications on your computer or not. However, if the event scales out, which includes inviting guests and/or sharing screens, it could be challenging unless your computer has relatively high spec enough.
 
 For this case, there are a few alternatives. One option is to use a virtual machine (VM) on the Cloud. A VM instance can be provisioned whenever necessary, then destroyed whenever no longer required. However, this approach also has a caveat from the "live streaming" point of view. Every time you provision the VM instance, you should install all the necessary applications by hand. If this is not happening very often, it may be OK. But it's still cumbersome to manually install those apps. Throughout this post, I'm going to discuss how to automatically install live streaming related software using [Chocolatey][chocolatey] during the provision of Azure [Windows VM][az vm].
@@ -86,8 +91,12 @@ You can see all the applications have been installed!
 
 So far, we've discussed how to automatically install applications for live streaming, using [Chocolatey][chocolatey], while provisioning a [Windows VM][az vm] on Azure. There are many reasons to provision and destroy VMs on the Cloud. Using an ARM Template and custom script for the VM provisioning will make your life easier. I hope this post gives small tips to live streamers using VMs for their purpose.
 
+I'm going to discuss, in the [next post][post next], how [Power Platform][pw platform] increases productivity against this sort of ad-hoc Azure resource provisioning.
+
 
 [image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming-01.png
+
+[post next]: /2020/09/02/ad-hoc-azure-resource-provisioning-via-power-platform/
 
 [gh sample]: https://github.com/devkimchi/LiveStream-VM-Setup-Sample
 [gh sample arm]: https://github.com/devkimchi/LiveStream-VM-Setup-Sample/blob/main/azuredeploy.json#L347-L389
@@ -117,3 +126,5 @@ So far, we've discussed how to automatically install applications for live strea
 [az vm bastion]: https://docs.microsoft.com/azure/bastion/bastion-connect-vm-rdp?WT.mc_id=devkimchicom-blog-juyoo
 
 [az storage blob]: https://docs.microsoft.com/azure/storage/blobs/storage-blobs-overview?WT.mc_id=devkimchicom-blog-juyoo
+
+[pw platform]: https://powerplatform.microsoft.com/?WT.mc_id=devkimchicom-blog-juyoo
