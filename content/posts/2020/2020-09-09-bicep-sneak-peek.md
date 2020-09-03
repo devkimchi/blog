@@ -13,9 +13,9 @@ cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/bicep-sneak-peek
 fullscreen: true
 ---
 
-There are several ways provisioning resources onto [Azure][az]. One of those approaches is to use the [ARM template][az arm template]. However, as many DevOps engineers have been providing feedback that ARM template is hard to learn and deploy at scales, as it can be tricky. Therefore, field experts like Microsoft MVPs have suggested many best practices about authoring ARM templates, but it's still the big hurdle to get through.
+Today there are several different ways of provisioning resources onto [Azure][az] either via the Azure Portal or in a programmatic way using PowerShell, Azure CLI or Azure SDKs available for several different languages, which in the end all leverages Azure's REST-based Resource Manager (ARM). One of those programmatic approaches is to use the JSON-based [ARM templates][az arm template]. However, many customers and especially DevOps engineers have been providing feedback that ARM templates are hard to learn, modify and deploy at scale. Therefore, field experts like Microsoft MVPs have suggested many best practices about authoring ARM templates, as well as the community has created a large set of samples in the Azure QuickStart Templates Library on GitHub, but it's still the big hurdle to get through.
 
-To lower the bar, Microsoft has revealed a DSL, called [Bicep][gh bicep], to help devs easily and quickly build the ARM templates. As of this writing, it's v0.1, which is a very early preview. It means there will be many improvements until it becomes v1.0. Throughout this post, I'm going to discuss its expressions and how it can ease the ARM template authoring fatigues.
+To lower the bar, Microsoft has revealed a new DSL, called [Bicep][gh bicep], to help devs easily and quickly build the ARM templates. As of this writing, it's v0.1, which is a very early preview. Which means that there will be many improvements until it becomes v1.0, including some potential breaking changes. Throughout this post, I'm going to discuss its expressions and how it can ease the ARM template authoring fatigues.
 
 > The sample `.bicep` file used for this post can be fount at this [GitHub repository][gh sample].
 
