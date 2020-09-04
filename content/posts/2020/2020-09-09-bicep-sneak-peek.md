@@ -13,11 +13,15 @@ cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/bicep-sneak-peek
 fullscreen: true
 ---
 
-There are several ways provisioning resources onto [Azure][az]. One of those approaches is to use the [ARM template][az arm template]. However, as many DevOps engineers have been providing feedback that ARM template is hard to learn and deploy at scales, as it can be tricky. Therefore, field experts like Microsoft MVPs have suggested many best practices about authoring ARM templates, but it's still the big hurdle to get through.
+Microsoft has recently revealed an [ARM Template][az arm template] DSL (Domain Specific Language), called [Bicep][gh bicep] to help devs build ARM templates quicker and easier.
 
-To lower the bar, Microsoft has revealed a DSL, called [Bicep][gh bicep], to help devs easily and quickly build the ARM templates. As of this writing, it's v0.1, which is a very early preview. It means there will be many improvements until it becomes v1.0. Throughout this post, I'm going to discuss its expressions and how it can ease the ARM template authoring fatigues.
+Amongst several ways to provision resources onto [Azure][az], [ARM template][az arm template] is one popular approach for DevOps engineers. However, many DevOps engineers have been providing feedback that ARM template is hard to learn and deploy at scales, as it can be tricky. Therefore, field experts like Microsoft MVPs have suggested many best practices about authoring ARM templates, but it's still the big hurdle to get through.
+
+As of this writing, it's v0.1, which is a very early preview. It means there will be many improvements until it becomes v1.0. Throughout this post, I'm going to discuss its expressions and how it can ease the ARM template authoring fatigues.
 
 > The sample `.bicep` file used for this post can be fount at this [GitHub repository][gh sample].
+
+**DO NOT USE BICEP ON YOUR PRODUCTION UNTIL IT GOES TO V0.3**
 
 
 ## ARM Template Skeleton Structure ##
