@@ -81,6 +81,16 @@ Define those extensions in the `devcontainer.json` like:
 
 https://gist.github.com/justinyoo/491cd606bd3b646f3fd5773d104e46f5?file=03-devcontainer.json
 
+
+### What Else Does `devcontainer.json` Do? ###
+
+We've just defined all the extensions in the `devcontainer.json` file. What else does this file do? It configures overall environments for [VS CS][vs cs] to use. It's OK to leave as default, but if you really want to configure, please refer to this [official document][vs cs config]. Here in this post, I'll pick up a few points.
+
+* `dockerFile`: Set the value as `Dockerfile` that we defined above.
+* `forwardPorts`: When [VS CS][vs cs] takes some ports, they need to be forwarded so that we can debug that on our web browser. For example, ASP.NET Core application needs both `5000` and `5001` ports, and Azure Functions takes `7071`. Put these ports into an array and assign it to this attribute.
+* `settings`: It's to configure the [VS CS][vs cs] editor settings.
+
+
 All the environment setup is done!
 
 
