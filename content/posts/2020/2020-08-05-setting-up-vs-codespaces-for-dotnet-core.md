@@ -13,6 +13,8 @@ cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/setting-up-vs-co
 fullscreen: true
 ---
 
+> **Update**: From September 4th, 2020, [Visual Studio Codespaces][vs cs] is consolidated to [GitHub Codespaces][gh cs]. The current Visual Studio Codespaces users will be notified to migrate their instances to GitHub Codespaces. From November 20th, 2020, no new Visual Studio Codespaces instance will be created and, from February 17th, 2021, Visual Studio Codespaces is retiring, and all instances haven't migrated to GitHub Codespaces will be deleted. For more details, please visit the [official announcement blog post][vs cs consolidated].
+
 Since April 2020 [Visual Studio Codespaces has been generally available][vs cs]. In addition to that, [GitHub Codespaces][gh cs] has been provided as a private preview. Both are very similar to each other in terms of their usage. There are differences between both, though, discussed from [this post][devto post]. Throughout this post, I'm going to focus on the .NET Core application development.
 
 [Visual Studio Codespaces (VS CS)][vs cs] is an online IDE service running on a VM somewhere in [Azure][az]. Like Azure DevOps build agents, this VM is provisioned when a [VS CS][vs cs] begins and destroyed after the [VS CS][vs cs] is closed. With no other configuration, it is provisioned with default values. However, it's not enough for .NET Core application development. Therefore, we might have to add some configurations.
@@ -155,6 +157,7 @@ So far, we've walked through how to set up the dev environment in [VS CS][vs cs]
 [vs cs config]: https://docs.microsoft.com/visualstudio/codespaces/reference/configuring?WT.mc_id=devkimchicom-blog-juyoo
 [vs cs personal]: https://docs.microsoft.com/visualstudio/codespaces/reference/personalizing?WT.mc_id=devkimchicom-blog-juyoo
 [vs cs vso]: https://online.visualstudio.com/?WT.mc_id=devkimchicom-blog-juyoo
+[vs cs consolidated]: https://devblogs.microsoft.com/visualstudio/visual-studio-codespaces-is-consolidating-into-github-codespaces/?WT.mc_id=devkimchicom-blog-juyoo
 
 [gh cs]: https://github.com/features/codespaces/
 [gh ohmyzsh]: https://github.com/ohmyzsh/ohmyzsh
