@@ -13,6 +13,11 @@ cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/bicep-sneak-peek
 fullscreen: true
 ---
 
+Let's have a look at the Project Bicep and ARM Template Toolkit, and GitHub Actions for both.
+
+* ***Project Bicep Sneak Peek***
+* [GitHub Actions and ARM Template Toolkit for Bicep Codes Linting][post next]
+
 Microsoft has recently revealed an [ARM Template][az arm template] DSL (Domain Specific Language), called [Bicep][gh bicep] to help devs build ARM templates quicker and easier.
 
 There are several ways of provisioning resources onto [Azure][az] &ndash; via [Azure Portal][az portal], or [PowerShell][az pwsh] or [Azure CLI][az cli], or [Azure SDKs][az sdk] in different languages, which all leverages [Azure Resource Manager REST APIs][az arm rest]. [ARM template][az arm template] is one popular approach for DevOps engineers. However, many DevOps engineers have been providing feedback that ARM template is hard to learn and deploy at scales, as it can be tricky. Therefore, field experts like Microsoft MVPs have suggested many best practices about authoring ARM templates and share them through [Azure Quickstart Templates][az arm quickstart] or their own social platform. But it's still the big hurdle to get through.
@@ -104,8 +109,10 @@ Let's compare the result between the [original ARM template][az arm template man
 
 ---
 
-So far, we have had a quick look at the early preview of the [Bicep][gh bicep] project. It was pretty impressive from the usability point of view and has improved developer experiences way better. Interested in trying out Bicep? You can take a first look with the [Bicep Playground][az bicep playground]!
+So far, we have had a quick look at the early preview of the [Bicep][gh bicep] project. It was pretty impressive from the usability point of view and has improved developer experiences way better. Interested in trying out Bicep? You can take a first look with the [Bicep Playground][az bicep playground]! Now, let's discuss how the Bicep-generated ARM templates are verified within CI/CD pipelines in the [next post][post next].
 
+
+[post next]: /2020/09/30/github-actions-and-arm-template-toolkit-to-test-bicep-codes/
 
 [gh sample]: https://github.com/devkimchi/LiveStream-VM-Setup-Sample/blob/main/bicep/azuredeploy.bicep
 [gh bicep]: https://github.com/Azure/bicep
