@@ -82,7 +82,7 @@ Unlike [Azure PowerShell][az pwsh], you can add one hostname at a time and won't
 
 You can also use ARM Template instead of command-line commands. Here's the [bicep][gh bicep] code for it (line #5-8).
 
-https://gist.github.com/justinyoo/8f4f33645adf7426969855b29171e91a?file=03-add-hostname.bicep&highlights=5-8
+https://gist.github.com/justinyoo/8f4f33645adf7426969855b29171e91a?file=03-add-hostname.bicep&highlights=6-9
 
 When the bicep file is compiled to ARM Template, it looks like:
 
