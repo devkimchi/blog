@@ -13,11 +13,12 @@ cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/3-ways-mapping-a
 fullscreen: true
 ---
 
-Throughout this series, I'm going to show how an Azure Functions instance can map APEX domains, bind an SSL certificate to the custom domain and automatically update its public inbound IP address to DNS server.
+Throughout this series, I'm going to show how an Azure Functions instance can map APEX domains, add an SSL certificate and update its public inbound IP address to DNS.
 
 * ***3 Ways Mapping APEX Domains to Azure Functions***
-* Adding Let's Encrypt SSL Certificate to Azure Functions Custom Domain
-* Updating Public IP Address of Azure Functions to DNS Automatically
+* [Adding Let's Encrypt SSL Certificate to Azure Functions][post 2]
+* Updating DNS A Record for Azure Functions Automatically
+* Deploying Azure Functions via GitHub Actions without Publish Profile
 
 Let's say there is an [Azure Functions][az func] instance. One of your customers wants to add a custom domain to the Function app. As long as the custom domain is a sub-domain type like `api.contoso.com`, it shouldn't be an issue because CNAME mapping is supported out-of-the-box. But what if the customer wants to add an APEX domain?
 
@@ -91,6 +92,8 @@ https://gist.github.com/justinyoo/8f4f33645adf7426969855b29171e91a?file=04-add-h
 
 So far, we've used three different ways to map an APEX domain to [Azure Functions][az func] instance. Generally speaking, it's rare to map a custom domain to an Azure Functions instance. It's even rarer to map the APEX domain. Therefore, the Azure Portal doesn't support this feature. However, as we already saw, we can use either [Azure PowerShell][az pwsh] or [Azure CLI][az cli], or ARM templates to add the root domain. I hope this post helps if one of your clients' requests is the one described in this post.
 
+In the [next post][post 2], I'll discuss how to bind a [Let's Encrypt][letsencrypt] generated SSL certificate to the custom APEX domain on Azure Function app.
+
 
 [image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/3-ways-mapping-apex-domains-to-azure-functions-01-en.png
 [image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/3-ways-mapping-apex-domains-to-azure-functions-02-en.jpg
@@ -99,9 +102,10 @@ So far, we've used three different ways to map an APEX domain to [Azure Function
 [image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/3-ways-mapping-apex-domains-to-azure-functions-05-en.png
 [image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/3-ways-mapping-apex-domains-to-azure-functions-06-en.png
 
-[post 1]: /2020/10/07/tbp/
-[post 2]: /2020/10/14/tbp/
+[post 1]: /2020/10/07/3-ways-mapping-apex-domains-to-azure-functions/
+[post 2]: /2020/10/14/lets-encrypt-ssl-certificate-on-azure-functions/
 [post 3]: /2020/10/21/tbp/
+[post 4]: /2020/10/28/tbp/
 
 [az func]: https://docs.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=devkimchicom-blog-juyoo
 [az portal]: https://azure.microsoft.com/features/azure-portal/?WT.mc_id=devkimchicom-blog-juyoo
@@ -110,3 +114,5 @@ So far, we've used three different ways to map an APEX domain to [Azure Function
 
 [gh azcli]: https://github.com/Azure/azure-cli/issues/14142#issuecomment-676539150
 [gh bicep]: https://github.com/azure/bicep
+
+[letsencrypt]: https://letsencrypt.org/
