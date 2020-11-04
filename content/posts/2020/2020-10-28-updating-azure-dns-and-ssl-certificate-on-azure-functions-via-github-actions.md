@@ -18,7 +18,7 @@ Throughout this series, I'm going to show how an Azure Functions instance can ma
 * [3 Ways Mapping APEX Domains to Azure Functions][post 1]
 * [Adding Let's Encrypt SSL Certificate to Azure Functions][post 2]
 * ***Updating Azure DNS and SSL Certificate on Azure Functions via GitHub Actions***
-* Deploying Azure Functions Apps via GitHub Actions without Publish Profile
+* [Deploying Azure Functions Apps via GitHub Actions without Publish Profile][post 4]
 
 In my [previous post][post 2], we walked through how to link an SSL certificate issued by [Let's Encrypt][letsencrypt], with a custom APEX domain. Throughout this post, I'm going to discuss how to automatically update the A record of a DNS server when the inbound IP address of the [Azure Functions][az func] instance is changed, update the SSL certificate through the [GitHub Actions][gh actions] workflow.
 
@@ -159,7 +159,7 @@ If the A record is up-to-date, the workflow stops there and doesn't take the fur
 
 ---
 
-So far, we use [GitHub Actions workflow][gh actions] to regularly check the inbound IP address of the [Azure Functions][az func] instance and update the change to [Azure DNS][az dns], renew an SSL certificate, and sync the certificate with Azure Functions instance. In the next post, I'll discuss how to deploy the Azure Functions app through GitHub Actions without having to know the publish profile.
+So far, we use [GitHub Actions workflow][gh actions] to regularly check the inbound IP address of the [Azure Functions][az func] instance and update the change to [Azure DNS][az dns], renew an SSL certificate, and sync the certificate with Azure Functions instance. In the [next post][post 4], I'll discuss how to deploy the Azure Functions app through GitHub Actions without having to know the publish profile.
 
 
 [image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-01.png
@@ -174,7 +174,7 @@ So far, we use [GitHub Actions workflow][gh actions] to regularly check the inbo
 [post 1]: /2020/10/07/3-ways-mapping-apex-domains-to-azure-functions/
 [post 2]: /2020/10/14/lets-encrypt-ssl-certificate-on-azure-functions/
 [post 3]: /2020/10/28/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions/
-[post 4]: /2020/10/28/tbp/
+[post 4]: /2020/11/05/deploying-azure-functions-via-github-actions-without-publish-profile/
 
 [az func]: https://docs.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=devops-10319-juyoo
 [az func csplan]: https://docs.microsoft.com/azure/azure-functions/functions-scale?WT.mc_id=devops-10319-juyoo#consumption-plan

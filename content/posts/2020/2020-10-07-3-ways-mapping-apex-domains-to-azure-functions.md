@@ -18,7 +18,7 @@ Throughout this series, I'm going to show how an Azure Functions instance can ma
 * ***3 Ways Mapping APEX Domains to Azure Functions***
 * [Adding Let's Encrypt SSL Certificate to Azure Functions][post 2]
 * [Updating Azure DNS and SSL Certificate on Azure Functions via GitHub Actions][post 3]
-* Deploying Azure Functions via GitHub Actions without Publish Profile
+* [Deploying Azure Functions via GitHub Actions without Publish Profile][post 4]
 
 Let's say there is an [Azure Functions][az func] instance. One of your customers wants to add a custom domain to the Function app. As long as the custom domain is a sub-domain type like `api.contoso.com`, it shouldn't be an issue because CNAME mapping is supported out-of-the-box. But what if the customer wants to add an APEX domain?
 
@@ -105,7 +105,7 @@ In the [next post][post 2], I'll discuss how to bind a [Let's Encrypt][letsencry
 [post 1]: /2020/10/07/3-ways-mapping-apex-domains-to-azure-functions/
 [post 2]: /2020/10/14/lets-encrypt-ssl-certificate-on-azure-functions/
 [post 3]: /2020/10/28/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions/
-[post 4]: /2020/10/28/tbp/
+[post 4]: /2020/11/05/deploying-azure-functions-via-github-actions-without-publish-profile/
 
 [az func]: https://docs.microsoft.com/azure/azure-functions/functions-overview?WT.mc_id=devkimchicom-blog-juyoo
 [az portal]: https://azure.microsoft.com/features/azure-portal/?WT.mc_id=devkimchicom-blog-juyoo
