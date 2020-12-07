@@ -17,7 +17,7 @@ fullscreen: true
 >
 > Each week we will publish a challenge co-created by [Azure Advocates][ms ca] with some amazing [Student Ambassadors][ms lsa] around the world. Discover popular festive recipes and learn how Microsoft Azure empowers you to do more with [Azure Serverless services][az serverless]! 🍽 😍.
 >
-> Explore our serverless [Resources][gh sos resources] here and learn how you can contribute solutions here.
+> Explore our serverless [Resources][gh sos resources] and learn how you can contribute solutions [here][gh sos contribute].
 
 * Week 1: [The Perfect Holiday Turkey - North America][devto sos week1]
 * Week 2: [Lovely Ladoos - India][devto sos week2]
@@ -180,6 +180,7 @@ As this repository also contains the sample [Power Apps][pw apps] and [Power Aut
 [gh workflow]: https://github.com/justinyoo/Seasons-of-Serverless/blob/solution/.github/workflows/main.yaml
 
 [gh sos resources]: https://github.com/microsoft/Seasons-of-Serverless/blob/main/RESOURCES.md
+[gh sos contribute]: https://github.com/microsoft/Seasons-of-Serverless/blob/main/CONTRIBUTING.md
 [gh sos step1]: https://github.com/justinyoo/Seasons-of-Serverless/tree/solution/solutions/2020-12-21/Step-1
 [gh sos step2]: https://github.com/justinyoo/Seasons-of-Serverless/tree/solution/solutions/2020-12-21/Step-2
 [gh sos step3]: https://github.com/justinyoo/Seasons-of-Serverless/tree/solution/solutions/2020-12-21/Step-3
