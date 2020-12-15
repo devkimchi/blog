@@ -44,6 +44,13 @@ Here are the challengers, aka Chefs.
 * Aaron Roh: [Microsoft Learn Student Ambassador][author aaron]
 
 
+## Challenge Results ##
+
+I took an interview video with MLSAs how they have implemented. They actually did awesome jobs! Although we took the video in Korean, we provide subtitles in both English and Korean. So, turn on the subtitles and you won't regret it.
+
+https://youtu.be/tq9Ntzy-ifM
+
+
 ## Ingredients (for 4 People) ##
 
 Cooking tteok-guk is fairly straightforward. Here is the list of ingredients for four people.
