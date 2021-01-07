@@ -50,7 +50,30 @@ Because of the events' nature, both event publisher and subscriber can't be dire
 
 ## Provisioning Azure EventGrid Subscription in ARM Template ##
 
-It's OK to provision the Azure EventGrid [Custom Topic][az evtgrd cus topic] through [ARM Template][az evtgrd arm topic]. However, provisioning the Azure EventGrid Subscription using [ARM Template][az evtgrd arm sub] only corresponds with the [System Topic][az evtgrd sys topic], not the Custom Topic you just created, at the time of this writing. Therefore, instead of the ARM template, you should consider [Azure CLI][az cli] to create the subscription.
+It's OK to provision the Azure EventGrid [Custom Topic][az evtgrd cus topic] through [ARM Template][az evtgrd arm topic]. However, provisioning the Azure EventGrid Subscription using [ARM Template][az evtgrd arm sub] only corresponds with the [System Topic][az evtgrd sys topic], not the Custom Topic you just created without scoping it. Therefore, instead of the ARM template, you should consider [Azure CLI][az cli] to create the subscription.
+
+---
+
+***Updates:***
+
+In fact, you can create the EventGrid Subscription resource and specify the topic using the [ARM Template][az evtgrd arm sub] in two different ways.
+
+### Providing Scope (Recommended) ###
+
+To use the [ARM Template][az evtgrd arm sub] mentioned above, the `scope` attribute is the key. (line #7). Here's the ARM Template written in [Bicep][az bicep]:
+
+https://gist.github.com/justinyoo/8865213b31baeda9f7c1ad258351a039?file=06-az-eventgrid-event-subscription-create-1.bicep&highlights=7
+
+
+### Providing Nested Resource Type (Doable but NOT Recommended) ###
+
+Alternatively, you can provide the nested resource type like below. In this case, you don't need the `scope` attribute, but as you can see the resource type and name looks more verbose (line #6-7).
+
+https://gist.github.com/justinyoo/8865213b31baeda9f7c1ad258351a039?file=07-az-eventgrid-event-subscription-create-2.bicep&highlights=6-7
+
+Therefore, you can provision Azure EventGrid Subscription resource like above, but let's focus on Azure CLI in this post.
+
+---
 
 
 ## Azure CLI Extensions ##
@@ -99,6 +122,8 @@ So far, we have walked through how to provision the EventGrid Subscription to Ev
 [az cli extensions]: https://docs.microsoft.com/cli/azure/azure-cli-extensions-list?WT.mc_id=devops-12244-juyoo
 [az cli extensions eventgrid]: https://github.com/Azure/azure-cli-extensions/tree/master/src/eventgrid
 [az cli extensions logic]: https://github.com/Azure/azure-cli-extensions/tree/master/src/logic
+
+[az bicep]: https://github.com/Azure/bicep
 
 [az logapp]: https://docs.microsoft.com/azure/logic-apps/logic-apps-overview?WT.mc_id=devops-12244-juyoo
 
