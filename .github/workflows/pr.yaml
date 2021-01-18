@@ -38,6 +38,11 @@ jobs:
       with:
         markdown: '${{ toJSON(steps.prbody.outputs.value) }}'
 
+    - name: Check the frontmatter outputs
+      shell: bash
+      run: |
+        echo '${{ steps.frontmatter.outputs.jsonised }}'
+
     - name: Get publish schedule
       id: schedule
       shell: bash
