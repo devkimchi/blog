@@ -44,9 +44,9 @@ jobs:
         echo ${{ toJSON(steps.frontmatter.outputs.jsonised) }} | jq "."
         echo ${{ toJSON(steps.frontmatter.outputs.jsonised) }} | jq -r ".schedule" | sed 's!\+00\:00!+09:00!g'
         echo ${{ toJSON(steps.frontmatter.outputs.jsonised) }} | jq -r ".slug"
-        # echo ${{ toJSON(steps.frontmatter.outputs.jsonised) }} | jq -r ".twitter" | sed 's!\\!\!g'
-        # echo ${{ toJSON(steps.frontmatter.outputs.jsonised) }} | jq -r ".facebook" | sed 's!\\!\!g'
-        # echo ${{ toJSON(steps.frontmatter.outputs.jsonised) }} | jq -r ".linkedin" | sed 's!\\!\!g'
+        echo ${{ toJSON(steps.frontmatter.outputs.jsonised) }} | jq -r ".twitter" | sed 's!\\!\!g'
+        echo ${{ toJSON(steps.frontmatter.outputs.jsonised) }} | jq -r ".facebook" | sed 's!\\!\!g'
+        echo ${{ toJSON(steps.frontmatter.outputs.jsonised) }} | jq -r ".linkedin" | sed 's!\\!\!g'
 
     - name: Get publish schedule
       id: schedule
