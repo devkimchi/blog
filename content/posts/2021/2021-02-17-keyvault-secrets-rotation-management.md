@@ -19,6 +19,10 @@ https://gist.github.com/justinyoo/75c16e773d9e1c8b8a1d5d5efa37f9c9?file=01-keyva
 
 With this approach, the reference always returns the latest version of the secret. Make sure that, when a newer version of the secret is created, it takes up to one day to get synced. Therefore, if your new version of the secret is less than one day old, you should consider the [rotation][az kv secrets rotation]. For the rotation, the ideal number of versions of each secret could be two. If there are more than two versions in one secret, it's better to disable them all the older ones for the sake of security.
 
+* ***KeyVault Secrets Rotation Management***
+* [Event-Driven KeyVault Secrets Rotation Management][post next]
+
+
 As there's no maximum number of secrets defined in [Azure Key Vault][az kv], sometimes there are too many secrets stored in one Key Vault instance. In this case, finding old versions of secrets and disable them by hand should consider automation; otherwise, it needs too many hands. This sort of automation can be done by [Azure Functions][az fncapp] with the Azure Key Vault SDK. Let me show how to do so in this post.
 
 > You can find the sample code used in this post at this [GitHub repository][gh sample].
@@ -96,10 +100,11 @@ You've got the logic ready! Run the Function app, and you will see that all the 
 
 ---
 
-So far, we've walked through how an Azure Functions app can manage older versions of each [secret of Azure Key Vault][az kv secrets] while [Azure App Service][az appsvc] and [Azure Functions][az fncapp] are referencing the ones in [Azure Key Vault][az kv]. I hope that this sort of implementation can reduce the amount of management overhead.
+So far, we've walked through how an Azure Functions app can manage older versions of each [secret of Azure Key Vault][az kv secrets] while [Azure App Service][az appsvc] and [Azure Functions][az fncapp] are referencing the ones in [Azure Key Vault][az kv]. I hope that this sort of implementation can reduce the amount of management overhead. In the [next post][post next], let's go further to make use of the event published by Azure Key Vault.
 
 
 [post prev]: /2020/04/30/3-ways-referencing-azure-key-vault-from-azure-functions/
+[post next]: /2021/02/24/event-driven-keyvault-secrets-rotation-management/
 
 [gh sample]: https://github.com/devkimchi/KeyVault-Reference-Sample/tree/2021-02-17
 
