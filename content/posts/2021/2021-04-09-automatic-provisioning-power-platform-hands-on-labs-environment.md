@@ -30,6 +30,22 @@ Therefore, as a hands-on lab session leader, I'm going to discuss how to automat
 > The PowerShell script used in this post is downloadable from [this GitHub repository][gh sample].
 
 
+## One-Liner Script ##
+
+Let's say you use the following information for the admin account.
+
+* Tenant Name: `powerplatformhandsonlab`
+* Tenant URL: `powerplatformhandsonlab.onmicrosoft.com`
+* Admin E-mail: `admin@powerplatformhandsonlab.onmicrosoft.com`
+* Admin Password: `Pa$$W0rd!@#$`
+
+With this information, how can you set up the lab environment in just one go? Here's the [entire script][gh sample code] and you just run the command below.
+
+https://gist.github.com/justinyoo/4cba9e122dfdb5684cd432c072b36b3d?file=15-set-environment.ps1
+
+Wait, what? What's going on? Here's the magic. Let's find them together.
+
+
 ## Create Microsoft 365 Tenant ##
 
 The first step to do as the session leader is to create a [Microsoft 365][m365] tenant. Microsoft 365 offers a free trial for 30 days. It includes 25 seats, including the admin account, which is suitable for the lab. Click this link, [http://aka.ms/Office365E5Trial][m365 trial e5], and create the Microsoft 365 E5 plan's trial tenant.
@@ -40,19 +56,25 @@ After filling out the form below, you get the trial tenant!
 
 ![Microsoft 365 E5 Trial Sign-up Page][image-02]
 
-> Let's say you use the following information for the admin account.
-> 
-> * Tenant Name: `powerplatformhandsonlab`
-> * Tenant URL: `powerplatformhandsonlab.onmicrosoft.com`
-> * Admin E-mail: `admin@powerplatformhandsonlab.onmicrosoft.com`
-> * Admin Password: `Pa$$W0rd!@#$`
-
 As you've got a new tenant, let's configure the lab environment in PowerShell. **Please note that you HAVE TO use the PowerShell console with the admin privilege**.
 
 
-## Install AzureAD Module ##
+## Provisioning Order ##
+
+There is no particular order for the environment provisioning. However, I would recommend following this order because there's incompatibility found between PowerShell modules especially between Power Apps and AzureAD:
+
+1. Activate Microsoft Dataverse for Power Platform Default Environment
+1. Add User Accounts
+1. Assign Microsoft 365 Roles to Accounts
+1. Assign Microsoft 365 Licenses to Accounts
+1. Assign Azure Roles to Accounts
+
+If you do the Microsoft Dataverse initialisation later than Azure AD, you will get an error. I'll discuss it later how to avoid it.
 
 > **NOTE**: To use any of the PowerShell module mentioned in this post, you need PowerShell v5.1 running on Windows. PowerShell Core (v6 and later) doesn't support this scenario. For more details about this, refer to this page, [Connect to Microsoft 365 with PowerShell][m365 powershell connect].
+
+
+## Install AzureAD Module ##
 
 You can add a new user account to a Microsoft 365 tenant through the [`AzureAD` module][psgallery azuread]. As of this writing, the latest version of the module is `2.0.2.130`. Use the `Install-Module` cmdlet to install the module. If you append these two parameters, `-Force -AllowClobber` (line #3), it always installs the newest version regardless it's already installed or not.
 
@@ -173,6 +195,7 @@ So far, we've walked through how to automatically provision a Power Platform env
 [image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-05-en.png
 
 [gh sample]: https://github.com/devkimchi/PowerPlatform-Hands-on-Lab-Environment-Automatic-Provsioning
+[gh sample code]: https://github.com/devkimchi/PowerPlatform-Hands-on-Lab-Environment-Automatic-Provsioning/blob/main/AzureAD/Set-Environment.ps1
 
 [pp]: https://powerplatform.microsoft.com/?WT.mc_id=power-23654-juyoo
 [pp dataverse]: https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro?WT.mc_id=power-23654-juyoo
