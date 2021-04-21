@@ -16,7 +16,8 @@ fullscreen: true
 Let's have a look at the Project Bicep and ARM Template Toolkit, and GitHub Actions for both.
 
 * ***Project Bicep Sneak Peek***
-* [GitHub Actions and ARM Template Toolkit for Bicep Codes Linting][post next]
+* [GitHub Actions and ARM Template Toolkit for Bicep Codes Linting][post 2]
+* [Azure Bicep Refreshed][post 3]
 
 Microsoft has recently revealed an [ARM Template][az arm template] DSL (Domain Specific Language), called [Bicep][gh bicep] to help devs build ARM templates quicker and easier.
 
@@ -109,10 +110,11 @@ Let's compare the result between the [original ARM template][az arm template man
 
 ---
 
-So far, we have had a quick look at the early preview of the [Bicep][gh bicep] project. It was pretty impressive from the usability point of view and has improved developer experiences way better. Interested in trying out Bicep? You can take a first look with the [Bicep Playground][az bicep playground]! Now, let's discuss how the Bicep-generated ARM templates are verified within CI/CD pipelines in the [next post][post next].
+So far, we have had a quick look at the early preview of the [Bicep][gh bicep] project. It was pretty impressive from the usability point of view and has improved developer experiences way better. Interested in trying out Bicep? You can take a first look with the [Bicep Playground][az bicep playground]! Now, let's discuss how the Bicep-generated ARM templates are verified within CI/CD pipelines in the [next post][post 2].
 
 
-[post next]: /2020/09/30/github-actions-and-arm-template-toolkit-to-test-bicep-codes/
+[post 2]: /2020/09/30/github-actions-and-arm-template-toolkit-to-test-bicep-codes/
+[post 3]: /2021/04/21/bicep-refreshed/
 
 [gh sample]: https://github.com/devkimchi/LiveStream-VM-Setup-Sample/blob/main/bicep/azuredeploy.bicep
 [gh bicep]: https://github.com/Azure/bicep

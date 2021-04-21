@@ -15,12 +15,13 @@ fullscreen: true
 
 Let's have a look at the Project Bicep and ARM Template Toolkit, and GitHub Actions for both.
 
-* [Project Bicep Sneak Peek][post prev]
+* [Project Bicep Sneak Peek][post 1]
 * ***GitHub Actions and ARM Template Toolkit for Bicep Codes Linting***
+* [Azure Bicep Refreshed][post 3]
 
 Once we build an ARM template, we need to verify whether the template is written in a proper way or will be working as expected. I wrote a couple of blog posts, [#1][post pester 1] and [#2][post pester 2], using [Pester][pester] for ARM Template validation. However, that approach required us to log in to Azure first, which was doable but less desirable. What if we can verify the template without having to log in to Azure?
 
-In my [previous post][post prev], I introduced the [Project Bicep][gh bicep] that build ARM templates way easier. Throughout this post, I'm going to discuss [ARM Template Toolkit (ARM-TTK)][az arm ttk] to lint and validate the templates, and how this process can be applied to our CI/CD pipelines using the [GitHub Actions][gh actions] workflow.
+In my [previous post][post 1], I introduced the [Project Bicep][gh bicep] that build ARM templates way easier. Throughout this post, I'm going to discuss [ARM Template Toolkit (ARM-TTK)][az arm ttk] to lint and validate the templates, and how this process can be applied to our CI/CD pipelines using the [GitHub Actions][gh actions] workflow.
 
 > The sample Bicep code used in this post can be downloaded from this [GitHub repository][gh sample].
 
@@ -87,7 +88,8 @@ So far, we've set up the CI/CD pipeline with [Bicep CLI][gh actions bicep] and [
 [image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-02.png
 [image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-03.png
 
-[post prev]: /2020/09/09/bicep-sneak-peek/
+[post 1]: /2020/09/09/bicep-sneak-peek/
+[post 3]: /2021/04/21/bicep-refreshed/
 [post pester 1]: /2018/01/22/testing-arm-templates-with-pester/
 [post pester 2]: /2018/07/12/testing-arm-templates-with-pester-2/
 
