@@ -20,7 +20,7 @@ Microsoft has published a [learning path for fusion dev teams][pa fusion path]. 
 Mallee Bulls Fitness Centre is a fictitious company that provides health and fitness services for their members. They are about to build a mobile app using [Power Apps][pa]. Throughout this post, I'm going to observe how they cope with it within the fusion team.
 
 * ***Developing Power Apps in Fusion Teams***
-* Tracing End-to-End Data from Power Apps to Azure Cosmos DB
+* [Tracing End-to-End Data from Power Apps to Azure Cosmos DB][post 2]
 * Putting DevOps and Power Apps Together
 
 > You can find the sample code used in this post at this [GitHub repository][gh sample].
@@ -130,7 +130,7 @@ After this collaboration practice, Mallee Bulls Fitness Centre can provide bette
 * Members can freely record their exercises, and
 * trainers can analyse the data and provide more personalised workout schedules.
 
-In the next post, let's trace the end-to-end data flow through [Azure Monitoring][az monitor].
+In the [next post][post 2], let's trace the end-to-end data flow through [Azure Monitoring][az monitor].
 
 
 [image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-01.png
@@ -148,6 +148,8 @@ In the next post, let's trace the end-to-end data flow through [Azure Monitoring
 [image-13]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-13.png
 [image-14]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-14.png
 
+[post 1]: /2021/05/12/power-apps-in-fusion-teams/
+[post 2]: /2021/05/19/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db/
 
 [gh sample]: https://github.com/aliencube/GymLog
 [gh sample api routine]: https://github.com/aliencube/GymLog/blob/main/src/GymLog.FunctionApp/Triggers/RoutineHttpTrigges.cs
