@@ -1,5 +1,5 @@
 ---
-title: "Generating OpenAPI Document from Azure Functions-within CI/CD Pipeline"
+title: "Generating OpenAPI Document from Azure Functions within CI/CD Pipeline"
 slug: generating-openapi-document-from-azure-functions-within-cicd-pipeline
 description: "In this post, I'm going to discuss how to generate the OpenAPI document from an Azure Functions app within GitHub Actions workflow."
 date: "2022-02-23"
