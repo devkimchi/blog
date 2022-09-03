@@ -18,6 +18,13 @@ A [Chrome extension][chrome extension] is a tiny app used for Chromium-based web
 > You can download the sample Chrome extension from [this GitHub repository][gh sample].
 
 
+## Series: Browser Extension with Blazor WASM ##
+
+* ***Lift & Shift Existing Chrome Extension to Blazor WebAssembly - Applying Blazor WASM*** 👈
+* [Lift & Shift Existing Chrome Extension to Blazor WebAssembly #2 - JavaScript Interop][post 2]
+* [Lift & Shift Existing Chrome Extension to Blazor WebAssembly #3 - Cross Browser Compatibility][post 3]
+
+
 ## Chrome Extension &ndash; JavaScript-based ##
 
 There's a [Chrome extension app][gh sample v2 original] based on the [Manifest v2][chrome extension v2]. Load it to your [Edge browser][edge], and it will look like the following image.
@@ -319,6 +326,7 @@ Here are some tutorials for you.
 
 [post 1]: /2022/07/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm/
 [post 2]: /2022/07/20/lift-and-shift-existing-chrome-extension-to-blazor-wasm-2/
+[post 3]: /2022/08/31/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3/
 
 [gh sample]: https://github.com/devkimchi/blazor-wasm-chrome-extension/tree/the-migration
 [gh sample v2 original]: https://github.com/devkimchi/blazor-wasm-chrome-extension/tree/the-migration/src/chrome-extension-v2

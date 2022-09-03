@@ -18,6 +18,13 @@ In my [previous post][post 1], I've walked through how to migrate a JavaScript-b
 > You can download the sample app codes from [this GitHub repository][gh sample].
 
 
+## Series: Browser Extension with Blazor WASM ##
+
+* [Lift & Shift Existing Chrome Extension to Blazor WebAssembly - Applying Blazor WASM][post 1]
+* ***Lift & Shift Existing Chrome Extension to Blazor WebAssembly #2 - JavaScript Interop*** 👈
+* [Lift & Shift Existing Chrome Extension to Blazor WebAssembly #3 - Cross Browser Compatibility][post 3]
+
+
 ## Chrome Extension &ndash; Before JS Interop ##
 
 The `index.html` file written in the [previous post][post 1] looks like the following. It loads `blazor.webassembly.js` first with the `autostart="false"` option, followed by loading `js/main.js` through the function call. The `js/main.js` reference is replaced with `js/options.js` or `js/popup.js` during the artifact generation process.
@@ -261,7 +268,7 @@ Then, does this exercise only brings you benefits? Here are a couple of consider
 1. The code gets overly complex. If we simply import the JavaScript files through the `index.html`/`popup.html`/`options.html`, we don't need to do this exercise.
 2. Not everytime the dynamic JS loading is useful. It has trade-offs. If you don't want to touch the bootstrapper files, then try this approach discussed in this post. But if you do touch the bootstrapper files, then this dynamic JS loading approach may be unsuitable.
 
-Overall, if we use more JS Interop features appropriately, we can build the Blazor WASM app more effectively, which will be another option for building Chrome extensions.
+Overall, if we use more JS Interop features appropriately, we can build the Blazor WASM app more effectively, which will be another option for building Chrome extensions. In the [next post][post 3], I'm going to discuss cross-browser compatibility for this Blazor WASM-based browser extension.
 
 
 ## Do you want to know more about Blazor? ##
@@ -275,6 +282,7 @@ Here are some tutorials for you.
 
 [post 1]: /2022/07/08/lift-and-shift-existing-chrome-extension-to-blazor-wasm/
 [post 2]: /2022/07/20/lift-and-shift-existing-chrome-extension-to-blazor-wasm-2/
+[post 3]: /2022/08/31/lift-and-shift-existing-chrome-extension-to-blazor-wasm-3/
 
 [gh sample]: https://github.com/devkimchi/blazor-wasm-chrome-extension/tree/the-integration
 [gh sample v2 blazor]: https://github.com/devkimchi/blazor-wasm-chrome-extension/tree/the-integration/src/ChromeExtensionV2
