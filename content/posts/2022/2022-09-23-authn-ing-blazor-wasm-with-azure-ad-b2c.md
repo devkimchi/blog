@@ -74,7 +74,6 @@ Enter the following values, and click "Create".
 ![Azure AD B2C - Sign up and sign in #2][image-08]
 
 Tick more options if you want to include more details in the token.
-만약 토큰에 좀 더 많은 정보를 추가하고 싶다면 아래 내용을 입력하면 좋다.
 
 ![Azure AD B2C - Sign up and sign in #3][image-09]
 
