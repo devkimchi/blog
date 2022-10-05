@@ -9,7 +9,7 @@ tags:
 - remote-controller
 - lirc
 - air-conditioner
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-00.png
+cover: /2020/08/turning-raspberry-pi-into-remote-controller-00.png
 fullscreen: true
 ---
 
@@ -232,17 +232,17 @@ https://youtu.be/QoUmSVAxBCs
 So far, we have walked through how [Raspberry PI][rpi] turns into a remote controller that switches on and off multiple home appliances. In the [next post][post next], I'll build a [Power App][pw apps] and [Power Automate][pw automate] that talks to an [Azure Functions][az func] app to access to the remote controller (Raspberry PI) from outside the home network.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/turning-raspberry-pi-into-remote-controller-11.png
+[image-01]: /2020/08/turning-raspberry-pi-into-remote-controller-01.png
+[image-02]: /2020/08/turning-raspberry-pi-into-remote-controller-02.png
+[image-03]: /2020/08/turning-raspberry-pi-into-remote-controller-03.png
+[image-04]: /2020/08/turning-raspberry-pi-into-remote-controller-04.png
+[image-05]: /2020/08/turning-raspberry-pi-into-remote-controller-05.png
+[image-06]: /2020/08/turning-raspberry-pi-into-remote-controller-06.png
+[image-07]: /2020/08/turning-raspberry-pi-into-remote-controller-07.png
+[image-08]: /2020/08/turning-raspberry-pi-into-remote-controller-08.png
+[image-09]: /2020/08/turning-raspberry-pi-into-remote-controller-09.png
+[image-10]: /2020/08/turning-raspberry-pi-into-remote-controller-10.png
+[image-11]: /2020/08/turning-raspberry-pi-into-remote-controller-11.png
 
 [post next]: /2020/08/19/remote-controlling-home-appliances-using-raspberry-pi-and-power-platform/
 

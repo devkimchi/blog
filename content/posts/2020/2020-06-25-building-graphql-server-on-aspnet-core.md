@@ -9,7 +9,7 @@ tags:
 - aspnet-core
 - graphql-dotnet
 - graphql-server
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/building-graphql-server-on-aspnet-core-00.png
+cover: /2020/06/building-graphql-server-on-aspnet-core-00.png
 fullscreen: true
 ---
 
@@ -178,11 +178,11 @@ It works as expected.
 So far, we have built an [ASP.NET Core][aspnet core] server for GraphQL. As many libraries exist in the ecosystem, we were able to build the server easily. I hope this post will give you a high-level idea of building GraphQL server on ASP.NET Core. Let's wrap an existing REST API with GraphQL in the next post.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/building-graphql-server-on-aspnet-core-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/building-graphql-server-on-aspnet-core-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/building-graphql-server-on-aspnet-core-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/building-graphql-server-on-aspnet-core-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/building-graphql-server-on-aspnet-core-05.png
+[image-01]: /2020/06/building-graphql-server-on-aspnet-core-01.png
+[image-02]: /2020/06/building-graphql-server-on-aspnet-core-02.png
+[image-03]: /2020/06/building-graphql-server-on-aspnet-core-03.png
+[image-04]: /2020/06/building-graphql-server-on-aspnet-core-04.png
+[image-05]: /2020/06/building-graphql-server-on-aspnet-core-05.png
 
 [gh sample]: https://github.com/devkimchi/GraphQL-Sample
 [gh api]: https://developer.github.com/v3/

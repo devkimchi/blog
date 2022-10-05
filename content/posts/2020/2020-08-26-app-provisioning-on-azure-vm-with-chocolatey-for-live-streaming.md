@@ -9,7 +9,7 @@ tags:
 - chocolatey
 - provisioning
 - configuration
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming-00.png
+cover: /2020/08/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming-00.png
 fullscreen: true
 ---
 
@@ -94,7 +94,7 @@ So far, we've discussed how to automatically install applications for live strea
 I'm going to discuss, in the [next post][post next], how [Power Platform][pw platform] increases productivity against this sort of ad-hoc Azure resource provisioning.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming-01.png
+[image-01]: /2020/08/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming-01.png
 
 [post next]: /2020/09/02/ad-hoc-azure-resource-provisioning-via-power-platform/
 

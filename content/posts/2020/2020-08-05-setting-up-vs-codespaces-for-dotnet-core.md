@@ -9,7 +9,7 @@ tags:
 - github-codespaces
 - environment-setup
 - dotnet-core
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/setting-up-vs-codespaces-for-dotnet-core-00.png
+cover: /2020/08/setting-up-vs-codespaces-for-dotnet-core-00.png
 fullscreen: true
 ---
 
@@ -142,13 +142,13 @@ The [VS CS][vs cs] instance created looks like following. Although it uses the s
 So far, we've walked through how to set up the dev environment in [VS CS][vs cs] for .NET Core application development. As this is the starting point of the team project efforts, it will significantly reduce the "It works on my machine" issue.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/setting-up-vs-codespaces-for-dotnet-core-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/setting-up-vs-codespaces-for-dotnet-core-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/setting-up-vs-codespaces-for-dotnet-core-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/setting-up-vs-codespaces-for-dotnet-core-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/setting-up-vs-codespaces-for-dotnet-core-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/setting-up-vs-codespaces-for-dotnet-core-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/08/setting-up-vs-codespaces-for-dotnet-core-07.png
+[image-01]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-01.png
+[image-02]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-02.png
+[image-03]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-03.png
+[image-04]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-04.png
+[image-05]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-05.png
+[image-06]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-06.png
+[image-07]: /2020/08/setting-up-vs-codespaces-for-dotnet-core-07.png
 
 [devto post]: https://dev.to/n3wt0n/visual-studio-github-codespaces-questions-answered-5ge7
 

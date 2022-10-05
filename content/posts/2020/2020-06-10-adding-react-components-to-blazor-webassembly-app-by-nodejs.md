@@ -9,7 +9,7 @@ tags:
 - reactjs
 - fluent-ui
 - js-interop
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-00.png
+cover: /2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-00.png
 fullscreen: true
 ---
 
@@ -100,9 +100,9 @@ Now, let's run the `dotnet build .` command. It will build both Blazor and npm p
 So far, we've built a [Blazor Web Assembly][blazor wasm] app with [React][reactjs] UI components, using npm packages. Let's deploy and run this Blazor app on [Azure Static Web App][az swa] instance in the [next post][post next].
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-03.png
+[image-01]: /2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-01.png
+[image-02]: /2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-02.png
+[image-03]: /2020/06/adding-react-components-to-blazor-webassembly-app-by-nodejs-03.png
 
 [gh sample]: https://github.com/devkimchi/Blazor-React-Sample
 

@@ -9,7 +9,7 @@ tags:
 - github-actions
 - jam-stack
 - azure-durable-functions
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-00.png
+cover: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-00.png
 fullscreen: true
 ---
 
@@ -68,11 +68,11 @@ All we need to do is to create a PR with a timestamp for publishing schedule. Th
 So far, we've fully automated post scheduling with GitOps, [Azure Durable Functions][az func durable] and [GitHub Actions][gh actions]. If you are running a static website and have the code in GitHub, this automation will reduce your workload significantly.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-05.png
+[image-01]: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-01.png
+[image-02]: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-02.png
+[image-03]: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-03.png
+[image-04]: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-04.png
+[image-05]: /2020/05/publishing-jam-stack-web-apps-with-gitops-and-github-actions-05.png
 
 [post gitops schedule]: /2020/03/25/scheduling-posts-with-gitops-durable-functions-and-github-actions/
 

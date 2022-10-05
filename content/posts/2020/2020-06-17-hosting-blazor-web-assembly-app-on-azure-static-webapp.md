@@ -9,7 +9,7 @@ tags:
 - azure-static-web-app
 - github-actions
 - azure-functions-proxy
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-00.png
+cover: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-00.png
 fullscreen: true
 ---
 
@@ -152,17 +152,17 @@ Refresh the app and click the button. No error! We made it!
 So far, we have walked through how the [Blazor Web Assembly][blazor wasm] app is deployed to [Azure Static Web App][az swa] instance. Deploying Blazor app itself only requires a few tweaks on the GitHub Actions workflow. But deploying the proxy API requires more than that, which is a bit complicating. As [Azure Static Web App][az swa] is still in preview, there are a lot of spaces to get improved until becoming GA. I hope, by the time of GA, it will be a lot easier to deploy Blazor Web Assembly app to Azure Static Web App.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-11.png
+[image-01]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-01.png
+[image-02]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-02.png
+[image-03]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-03.png
+[image-04]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-04.png
+[image-05]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-05.png
+[image-06]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-06.png
+[image-07]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-07.png
+[image-08]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-08.png
+[image-09]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-09.png
+[image-10]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-10.png
+[image-11]: /2020/06/hosting-blazor-web-assembly-app-on-azure-static-webapp-11.png
 
 [gh sample]: https://github.com/devkimchi/Blazor-React-Sample
 [gh sample blazor]: https://github.com/devkimchi/Blazor-React-Sample/tree/master/BlazorNpmSample

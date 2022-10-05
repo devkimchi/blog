@@ -9,7 +9,7 @@ tags:
 - reactjs
 - fluent-ui
 - js-interop
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/adding-react-components-to-blazor-webassembly-app-00.png
+cover: /2020/06/adding-react-components-to-blazor-webassembly-app-00.png
 fullscreen: true
 ---
 
@@ -72,9 +72,9 @@ So far, we have walked through the way to add [React][reactjs] UI components int
 * We used CDN to import [React][reactjs] libraries. We can also consider the npm packages, which will be covered in the [next post][post next].
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/adding-react-components-to-blazor-webassembly-app-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/adding-react-components-to-blazor-webassembly-app-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/06/adding-react-components-to-blazor-webassembly-app-03.png
+[image-01]: /2020/06/adding-react-components-to-blazor-webassembly-app-01.png
+[image-02]: /2020/06/adding-react-components-to-blazor-webassembly-app-02.png
+[image-03]: /2020/06/adding-react-components-to-blazor-webassembly-app-03.png
 
 [post series 1]: /2020/06/03/adding-react-components-to-blazor-webassembly-app/
 [post series 2]: /2020/06/10/adding-react-components-to-blazor-webassembly-app-by-nodejs/
