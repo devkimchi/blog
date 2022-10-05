@@ -9,7 +9,7 @@ tags:
 - observability
 - traceability
 - open-telemetry
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-00.png
+cover: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-00.png
 fullscreen: true
 ---
 
@@ -138,12 +138,12 @@ So far, we've walked through the implementation of data tracing logic with the c
 Unfortunately, the [OpenTelemetry.NET][cncf opentelemetry dotnet] doesn't work in Azure Functions as expected for now. But we can still implement the concept through Application Insights for the time being. In the next post, let's try the DevOps journey with Power Apps.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-06.png
+[image-01]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-01.png
+[image-02]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-02.png
+[image-03]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-03.png
+[image-04]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-04.png
+[image-05]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-05.png
+[image-06]: /2021/05/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db-06.png
 
 
 [post 1]: /2021/05/12/power-apps-in-fusion-teams/

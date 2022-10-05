@@ -9,7 +9,7 @@ tags:
 - blazor-webassembly
 - code-behind
 - separation-of-concerns
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/03/blazor-code-behind-00.png
+cover: /2021/03/blazor-code-behind-00.png
 fullscreen: true
 ---
 
@@ -87,8 +87,8 @@ Let's compile the app and run it. Can you see what you expected?
 So far, we've walked through how to extract the codes from HTML in a `.razor` file of a Blazor application. In fact, it's not a tip nor a trick, but a suggestion for a better app development approach. Suppose you or your organisation plans to migrate existing [ASP.NET WebForm][aspnet webform] applications to [Blazor][blazor] and wants to keep the same development experience. In that case, this post will be the starting point.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/03/blazor-code-behind-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/03/blazor-code-behind-02.png
+[image-01]: /2021/03/blazor-code-behind-01.png
+[image-02]: /2021/03/blazor-code-behind-02.png
 
 [gh sample]: https://github.com/devkimchi/Blazor-Code-Behind-Sample
 

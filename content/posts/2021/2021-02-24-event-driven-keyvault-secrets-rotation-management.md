@@ -10,7 +10,7 @@ tags:
 - azure-logic-apps
 - azure-functions
 - azure-sdk
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-00.png
+cover: /2021/02/event-driven-keyvault-secrets-rotation-management-00.png
 fullscreen: true
 ---
 
@@ -144,18 +144,18 @@ Once you complete the end-to-end integration workflow, you will be able to see t
 So far, we've implemented a new logic that captures an event published when a new [secret version][az kv secrets] is added to [Azure Key Vault][az kv] instance, and process the rotation management against the specific secret, using [Azure EventGrid][az evtgrd], [Azure Logic Apps][az logapp] and [Azure Functions][az fncapp]. It would be handy if you have a similar use case and implement this sort of event-driven workflow process.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-02-en.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-03-en.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-04-en.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-05-en.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-06-en.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-07-en.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-08-en.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-09-en.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-10-en.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-11-en.png
-[image-12]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/02/event-driven-keyvault-secrets-rotation-management-12-en.png
+[image-01]: /2021/02/event-driven-keyvault-secrets-rotation-management-01.png
+[image-02]: /2021/02/event-driven-keyvault-secrets-rotation-management-02-en.png
+[image-03]: /2021/02/event-driven-keyvault-secrets-rotation-management-03-en.png
+[image-04]: /2021/02/event-driven-keyvault-secrets-rotation-management-04-en.png
+[image-05]: /2021/02/event-driven-keyvault-secrets-rotation-management-05-en.png
+[image-06]: /2021/02/event-driven-keyvault-secrets-rotation-management-06-en.png
+[image-07]: /2021/02/event-driven-keyvault-secrets-rotation-management-07-en.png
+[image-08]: /2021/02/event-driven-keyvault-secrets-rotation-management-08-en.png
+[image-09]: /2021/02/event-driven-keyvault-secrets-rotation-management-09-en.png
+[image-10]: /2021/02/event-driven-keyvault-secrets-rotation-management-10-en.png
+[image-11]: /2021/02/event-driven-keyvault-secrets-rotation-management-11-en.png
+[image-12]: /2021/02/event-driven-keyvault-secrets-rotation-management-12-en.png
 
 [post prev 1]: /2021/02/17/keyvault-secrets-rotation-management/
 [post prev 2]: /2021/01/27/websub-to-eventgrid-via-cloudevents-and-beyond/

@@ -9,7 +9,7 @@ tags:
 - microsoft365
 - provisioning
 - powershell
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-00.png
+cover: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-00.png
 fullscreen: true
 ---
 
@@ -188,11 +188,11 @@ All users are now able to access to Azure resources for the exercise.
 So far, we've walked through how to automatically provision a Power Platform environment for hands-on-labs, using PowerShell. Now, if you are going to run a hands-on lab session and need a new environment, simply run the code above. Then, it's all good to go!
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-01-en.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-02-en.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-03-en.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-04-en.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-05-en.png
+[image-01]: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-01-en.png
+[image-02]: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-02-en.png
+[image-03]: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-03-en.png
+[image-04]: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-04-en.png
+[image-05]: /2021/04/automatic-provisioning-power-platform-hands-on-labs-environment-05-en.png
 
 [gh sample]: https://github.com/devkimchi/PowerPlatform-Hands-on-Lab-Environment-Automatic-Provsioning
 [gh sample code]: https://github.com/devkimchi/PowerPlatform-Hands-on-Lab-Environment-Automatic-Provsioning/blob/main/AzureAD/Set-Environment.ps1

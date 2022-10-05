@@ -9,7 +9,7 @@ tags:
 - power-apps
 - azure
 - serverless
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-00.jpg
+cover: /2021/05/power-apps-in-fusion-teams-00.jpg
 fullscreen: true
 ---
 
@@ -133,20 +133,20 @@ After this collaboration practice, Mallee Bulls Fitness Centre can provide bette
 In the [next post][post 2], let's trace the end-to-end data flow through [Azure Monitoring][az monitor].
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-03-en.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-04-en.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-05-en.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-06-en.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-07-en.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-08-en.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-09-en.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-10-en.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-13.png
-[image-14]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/05/power-apps-in-fusion-teams-14.png
+[image-01]: /2021/05/power-apps-in-fusion-teams-01.png
+[image-02]: /2021/05/power-apps-in-fusion-teams-02.png
+[image-03]: /2021/05/power-apps-in-fusion-teams-03-en.png
+[image-04]: /2021/05/power-apps-in-fusion-teams-04-en.png
+[image-05]: /2021/05/power-apps-in-fusion-teams-05-en.png
+[image-06]: /2021/05/power-apps-in-fusion-teams-06-en.png
+[image-07]: /2021/05/power-apps-in-fusion-teams-07-en.png
+[image-08]: /2021/05/power-apps-in-fusion-teams-08-en.png
+[image-09]: /2021/05/power-apps-in-fusion-teams-09-en.png
+[image-10]: /2021/05/power-apps-in-fusion-teams-10-en.png
+[image-11]: /2021/05/power-apps-in-fusion-teams-11.png
+[image-12]: /2021/05/power-apps-in-fusion-teams-12.png
+[image-13]: /2021/05/power-apps-in-fusion-teams-13.png
+[image-14]: /2021/05/power-apps-in-fusion-teams-14.png
 
 [post 1]: /2021/05/12/power-apps-in-fusion-teams/
 [post 2]: /2021/05/19/tracing-end-to-end-data-from-power-apps-to-azure-cosmos-db/

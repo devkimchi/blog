@@ -9,7 +9,7 @@ tags:
 - websub
 - cloudevents
 - azure-logic-apps
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-00-en.png
+cover: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-00-en.png
 fullscreen: true
 ---
 
@@ -190,20 +190,20 @@ So far, we've implemented a workflow solution that posts to designated social me
 If you or your organisation is planning online content marketing, it's worth building this sort of system by yourself. And it would be an excellent opportunity to make a well-decoupled and event-driven cloud solution architecture.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-02-en.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-05-en.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-08-en.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-13-en.png
-[image-14]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-14.png
+[image-01]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-01.png
+[image-02]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-02-en.png
+[image-03]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-03.png
+[image-04]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-04.png
+[image-05]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-05-en.png
+[image-06]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-06.png
+[image-07]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-07.png
+[image-08]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-08-en.png
+[image-09]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-09.png
+[image-10]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-10.png
+[image-11]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-11.png
+[image-12]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-12.png
+[image-13]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-13-en.png
+[image-14]: /2021/01/websub-to-eventgrid-via-cloudevents-and-beyond-14.png
 
 
 [post prev 1]: /2021/01/13/dealing-cloudevents-with-azure-functions-for-azure-eventgrid/

@@ -9,7 +9,7 @@ tags:
 - azure-logic-apps
 - azure-eventgrid
 - github-actions
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-00.png
+cover: /2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-00.png
 fullscreen: true
 ---
 
@@ -114,9 +114,9 @@ So far, we have walked through how to provision the EventGrid Subscription to Ev
 
 
 [image-01]: https://docs.microsoft.com/azure/event-grid/media/overview/functional-model.png?WT.mc_id=devops-12244-juyoo
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-04.png
+[image-02]: /2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-02.png
+[image-03]: /2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-03.png
+[image-04]: /2021/01/provisioning-eventgrid-subscription-and-logicapp-handler-using-azure-cli-04.png
 
 [az cli]: https://docs.microsoft.com/cli/azure/what-is-azure-cli?WT.mc_id=devops-12244-juyoo
 [az cli extensions]: https://docs.microsoft.com/cli/azure/azure-cli-extensions-list?WT.mc_id=devops-12244-juyoo

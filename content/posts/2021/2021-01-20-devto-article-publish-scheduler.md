@@ -9,7 +9,7 @@ tags:
 - azure-durable-functions
 - devto
 - frontmatter
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/devto-article-publish-scheduler-00-en.png
+cover: /2021/01/devto-article-publish-scheduler-00-en.png
 fullscreen: true
 ---
 
@@ -180,8 +180,8 @@ So far, we've walked through implementing an [Azure Durable Functions app][az fn
 
 
 [image-01]: https://user-images.githubusercontent.com/1538528/89647854-3a9c4e80-d8f9-11ea-8415-a71aac67168c.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/devto-article-publish-scheduler-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/01/devto-article-publish-scheduler-03-en.png
+[image-02]: /2021/01/devto-article-publish-scheduler-02.png
+[image-03]: /2021/01/devto-article-publish-scheduler-03-en.png
 
 [todd]: https://twitter.com/toddanglin
 [todd publishtodev]: https://github.com/toddanglin/PublishToDev
