@@ -9,7 +9,7 @@ tags:
 - azure-functions
 - integration-testing
 - github-actions
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-integration-testing-00.png
+cover: /2021/08/azure-functions-integration-testing-00.png
 fullscreen: true
 ---
 
@@ -107,8 +107,8 @@ Once all the GitHub Actions workflow is set, push your codes to GitHub. Then you
 So far, we've walked through how to run the integration testing codes for [Azure Functions app][az fncapp] within the [GitHub Actions][gha] workflow, using [Azure Functions CLI][az fncapp cli] as a background process. As a result, you can now avoid extra steps for the app deployment to Azure for testing.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-integration-testing-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-integration-testing-02.png
+[image-01]: /2021/08/azure-functions-integration-testing-01.png
+[image-02]: /2021/08/azure-functions-integration-testing-02.png
 
 
 [post 1]: /2019/08/07/azure-functions-integration-testing-with-mountebank/

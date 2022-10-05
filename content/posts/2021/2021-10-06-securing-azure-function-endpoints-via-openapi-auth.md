@@ -9,7 +9,7 @@ tags:
 - openapi
 - security
 - authentication
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-00.png
+cover: /2021/10/securing-azure-function-endpoints-via-openapi-auth-00.png
 fullscreen: true
 ---
 
@@ -193,24 +193,24 @@ Decode and validate the token for further processing.
 So far, we've covered six different ways to authenticate the HTTP trigger endpoints with the OpenAPI extension. These six ways are the most commonly used ones. Therefore, if you need, you can pick up one approach and implement it.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-13.png
-[image-14]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-14.png
-[image-15]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-15.png
-[image-16]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-16.png
-[image-17]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-17.png
-[image-18]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/securing-azure-function-endpoints-via-openapi-auth-18.png
+[image-01]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-01.png
+[image-02]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-02.png
+[image-03]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-03.png
+[image-04]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-04.png
+[image-05]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-05.png
+[image-06]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-06.png
+[image-07]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-07.png
+[image-08]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-08.png
+[image-09]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-09.png
+[image-10]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-10.png
+[image-11]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-11.png
+[image-12]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-12.png
+[image-13]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-13.png
+[image-14]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-14.png
+[image-15]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-15.png
+[image-16]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-16.png
+[image-17]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-17.png
+[image-18]: /2021/10/securing-azure-function-endpoints-via-openapi-auth-18.png
 
 
 [gh sample]: https://github.com/devkimchi/azure-functions-oauth-authentications-via-swagger-ui

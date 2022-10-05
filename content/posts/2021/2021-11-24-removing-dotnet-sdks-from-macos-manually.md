@@ -9,7 +9,7 @@ tags:
 - dotnet-sdk
 - macos
 - installation
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/11/removing-dotnet-sdks-from-macos-manually-00.png
+cover: /2021/11/removing-dotnet-sdks-from-macos-manually-00.png
 fullscreen: true
 ---
 
@@ -76,9 +76,9 @@ I guess this is the most crucial part. From time to time, after the manual SDK/r
 So far, I've walked through how to delete a specific .NET SDK and runtime from MacOS manually. In most cases, you won't need this approach, but I hope this walkthrough will be helpful if you do.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/11/removing-dotnet-sdks-from-macos-manually-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/11/removing-dotnet-sdks-from-macos-manually-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/11/removing-dotnet-sdks-from-macos-manually-03.png
+[image-01]: /2021/11/removing-dotnet-sdks-from-macos-manually-01.png
+[image-02]: /2021/11/removing-dotnet-sdks-from-macos-manually-02.png
+[image-03]: /2021/11/removing-dotnet-sdks-from-macos-manually-03.png
 
 
 [dotnet check]: https://docs.microsoft.com/dotnet/core/install/how-to-detect-installed-versions?pivots=os-macos&WT.mc_id=dotnet-50035-juyoo&ocid=AID3035186

@@ -9,7 +9,7 @@ tags:
 - blazor-wasm
 - msal
 - msgraph
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-00.png
+cover: /2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-00.png
 fullscreen: true
 ---
 
@@ -157,9 +157,9 @@ So far, I've walked through the entire process to get the user details:
 As you know, Microsoft Graph can access all [Microsoft 365][m365] resources like [SharePoint Online][m365 spo], [Teams][m365 teams] and so forth. So if you follow this approach, your chances to use Microsoft 365 resources will get more broadened.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-01-en.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-02-en.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-03-en.png
+[image-01]: /2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-01-en.png
+[image-02]: /2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-02-en.png
+[image-03]: /2021/09/accessing-msgraph-from-blazor-wasm-running-on-aswa-03-en.png
 
 
 [gh sample]: https://github.com/fusiondevkr/fusiondevkr

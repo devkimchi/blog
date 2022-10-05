@@ -9,7 +9,7 @@ tags:
 - github-actions
 - power-platform
 - azure-functions
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-00-en.png
+cover: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-00-en.png
 fullscreen: true
 ---
 
@@ -282,16 +282,16 @@ So far, I summarised what I've learnt from this event and what I've done for wor
 Specially thanks to [MLSAs][mlsa] and [GCEs][gce] to review all the PRs, and mentors who answered questions from participants. Without them, regardless of the fully automated workflows, this event wouldn't be successfully running.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-01-en.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/registration-en.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/challenge-social-en.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-10.png
+[image-01]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-01-en.png
+[image-02]: /2021/08/registration-en.png
+[image-03]: /2021/08/challenge-social-en.png
+[image-04]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-04.png
+[image-05]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-05.png
+[image-06]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-06.png
+[image-07]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-07.png
+[image-08]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-08.png
+[image-09]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-09.png
+[image-10]: /2021/08/running-hackathon-by-yourself-with-gha-m365-and-pp-10.png
 
 
 [hackalearn]: https://github.com/devrel-kr/HackaLearn/blob/main/README.en.md

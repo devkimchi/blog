@@ -9,7 +9,7 @@ tags:
 - azure-functions
 - openapi
 - swagger
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-00.png
+cover: /2021/08/azure-functions-openapi-on-net5-00.png
 fullscreen: true
 ---
 
@@ -146,27 +146,27 @@ Once the deployment is over, open a new web browser, visit the Azure Functions a
 So far, we've walked through how to create an [OpenAPI enabled][azfunc openapi] [Azure Functions][az fncapp] app, running on .NET 5 isolated worker environment, and deploy it to Azure without having to leave [Visual Studio][vs]. I'm guessing that it will run OK on .NET 6, theoretically. If you're curious, please deploy it and let me know!
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-13.png
-[image-14]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-14.png
-[image-15]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-15.png
-[image-16]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-16.png
-[image-17]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-17.png
-[image-18]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-18.png
-[image-19]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-19.png
-[image-20]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-20.png
-[image-21]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/08/azure-functions-openapi-on-net5-21.png
+[image-01]: /2021/08/azure-functions-openapi-on-net5-01.png
+[image-02]: /2021/08/azure-functions-openapi-on-net5-02.png
+[image-03]: /2021/08/azure-functions-openapi-on-net5-03.png
+[image-04]: /2021/08/azure-functions-openapi-on-net5-04.png
+[image-05]: /2021/08/azure-functions-openapi-on-net5-05.png
+[image-06]: /2021/08/azure-functions-openapi-on-net5-06.png
+[image-07]: /2021/08/azure-functions-openapi-on-net5-07.png
+[image-08]: /2021/08/azure-functions-openapi-on-net5-08.png
+[image-09]: /2021/08/azure-functions-openapi-on-net5-09.png
+[image-10]: /2021/08/azure-functions-openapi-on-net5-10.png
+[image-11]: /2021/08/azure-functions-openapi-on-net5-11.png
+[image-12]: /2021/08/azure-functions-openapi-on-net5-12.png
+[image-13]: /2021/08/azure-functions-openapi-on-net5-13.png
+[image-14]: /2021/08/azure-functions-openapi-on-net5-14.png
+[image-15]: /2021/08/azure-functions-openapi-on-net5-15.png
+[image-16]: /2021/08/azure-functions-openapi-on-net5-16.png
+[image-17]: /2021/08/azure-functions-openapi-on-net5-17.png
+[image-18]: /2021/08/azure-functions-openapi-on-net5-18.png
+[image-19]: /2021/08/azure-functions-openapi-on-net5-19.png
+[image-20]: /2021/08/azure-functions-openapi-on-net5-20.png
+[image-21]: /2021/08/azure-functions-openapi-on-net5-21.png
 
 
 [gh sample]: https://github.com/justinyoo/azfunc-openapi-dotnet

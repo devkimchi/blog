@@ -9,7 +9,7 @@ tags:
 - openapi
 - binary-data
 - byte-array
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/transmitting-binary-data-via-openapi-on-azure-functions-00.png
+cover: /2021/10/transmitting-binary-data-via-openapi-on-azure-functions-00.png
 fullscreen: true
 ---
 
@@ -52,8 +52,8 @@ Run the function app and see how it's going. Your image data has been transferre
 So far, we've walked through how to define binary data through Azure Functions OpenAPI extension and run it on Swagger UI. Since this feature was one of the long-waited ones, I'm hoping everyone can make use of this feature in many places.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/transmitting-binary-data-via-openapi-on-azure-functions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2021/10/transmitting-binary-data-via-openapi-on-azure-functions-02.png
+[image-01]: /2021/10/transmitting-binary-data-via-openapi-on-azure-functions-01.png
+[image-02]: /2021/10/transmitting-binary-data-via-openapi-on-azure-functions-02.png
 
 
 [gh sample]: https://github.com/devkimchi/azure-functions-binary-data-via-swagger-ui
