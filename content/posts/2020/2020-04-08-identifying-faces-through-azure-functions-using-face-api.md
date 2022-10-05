@@ -9,7 +9,7 @@ tags:
 - face-api
 - azure-blob-storage
 - covid-19
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/identifying-faces-through-azure-functions-using-face-api-00.png
+cover: /2020/04/identifying-faces-through-azure-functions-using-face-api-00.png
 fullscreen: true
 ---
 
@@ -115,12 +115,12 @@ Once everything is done, the final result of `FaceEntity` is updated on the [Azu
 So far, we've walked through how to identify my face through [Azure Functions][az func] and [Azure Face API][az cog faceapi]. In fact, the algorithm for face identification is really hard to understand. However, the Face API is a fully managed service that we don't have to maintain &ndash; this is the key concept of this post. In the [next post][post series 3], as the final post of this series, I'll build a [Power App][power apps] to integrate the [Function][az func] app.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/identifying-faces-through-azure-functions-using-face-api-01-en.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/identifying-faces-through-azure-functions-using-face-api-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/identifying-faces-through-azure-functions-using-face-api-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/identifying-faces-through-azure-functions-using-face-api-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/identifying-faces-through-azure-functions-using-face-api-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/identifying-faces-through-azure-functions-using-face-api-06.png
+[image-01]: /2020/04/identifying-faces-through-azure-functions-using-face-api-01-en.png
+[image-02]: /2020/04/identifying-faces-through-azure-functions-using-face-api-02.png
+[image-03]: /2020/04/identifying-faces-through-azure-functions-using-face-api-03.png
+[image-04]: /2020/04/identifying-faces-through-azure-functions-using-face-api-04.png
+[image-05]: /2020/04/identifying-faces-through-azure-functions-using-face-api-05.png
+[image-06]: /2020/04/identifying-faces-through-azure-functions-using-face-api-06.png
 
 [post series 1]: /2020/04/01/capturing-images-from-browser-to-azure-blob-storage-via-azure-functions/
 [post series 3]: /2020/04/15/building-online-check-in-app-with-power-apps/

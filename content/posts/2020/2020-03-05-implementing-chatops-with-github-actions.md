@@ -9,7 +9,7 @@ tags:
 - chatops
 - continuous-delivery
 - approval-process
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/implementing-chatops-with-github-actions-00.png
+cover: /2020/03/implementing-chatops-with-github-actions-00.png
 fullscreen: true
 ---
 
@@ -102,9 +102,9 @@ Depending on the HTTP API result from GitHub, we can set up a different `CARD-AC
 So far, we have walked through implementing ChatOps on [GitHub Actions][gh actions] with [Microsoft Teams][ms teams]. This is a really simple use case. Your organisation might have more complex scenarios. Instead of [Azure Functions][az func], how about using [Event Grid][az eventg] or [Logic Apps][az logapp] for your use cases? I'll leave that to you.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/implementing-chatops-with-github-actions-01-en.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/implementing-chatops-with-github-actions-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/implementing-chatops-with-github-actions-03.png
+[image-01]: /2020/03/implementing-chatops-with-github-actions-01-en.png
+[image-02]: /2020/03/implementing-chatops-with-github-actions-02.png
+[image-03]: /2020/03/implementing-chatops-with-github-actions-03.png
 
 [ci cd]: https://dzone.com/articles/continuous-delivery-vs-continuous-deployment-an-ov
 [gitops]: https://www.weave.works/technologies/gitops/

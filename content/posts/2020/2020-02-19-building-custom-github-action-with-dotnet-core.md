@@ -9,7 +9,7 @@ tags:
 - custom-actions
 - docker
 - dotnet-core
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/02/building-custom-github-action-with-dotnet-core-00.png
+cover: /2020/02/building-custom-github-action-with-dotnet-core-00.png
 fullscreen: true
 ---
 
@@ -112,8 +112,8 @@ And here's the actual link of the Custom Action:
 So far, we've walked through how to build a custom action with a real-world scenario. If you have your use case, why not creating a one? It's your turn now.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/02/building-custom-github-action-with-dotnet-core-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/02/building-custom-github-action-with-dotnet-core-02.png
+[image-01]: /2020/02/building-custom-github-action-with-dotnet-core-01.png
+[image-02]: /2020/02/building-custom-github-action-with-dotnet-core-02.png
 
 [prev post 1]: https://devkimchi.com/2019/12/13/publishing-static-website-to-azure-blob-storage-via-github-actions/
 [prev post 2]: https://devkimchi.com/2019/12/18/building-ci-cd-pipelines-with-github-actions/

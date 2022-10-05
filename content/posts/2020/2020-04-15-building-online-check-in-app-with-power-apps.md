@@ -9,7 +9,7 @@ tags:
 - azure-functions
 - face-api
 - covid-19
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-00.png
+cover: /2020/04/building-online-check-in-app-with-power-apps-00.png
 fullscreen: true
 ---
 
@@ -244,36 +244,36 @@ https://youtu.be/GVNK8HcF-xY
 So far, we've used [Power Apps][powapp], [Azure Functions][az func] and [Azure Face API][az cog faceapi] to build an app for online attendance check-in. Power Apps is often called as "low-code" or "no-code" app builder, as we barely used codes for the app building. All the data exchange is done through connectors. Of course, we need codes for the API app, but this is outside the scope of Power Apps. Therefore, once API is ready for use, Power Apps simply consumes it to build apps, which comes really handy. It's time for you to develop your own app!
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-01-en.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-13.png
-[image-14]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-14.png
-[image-15]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-15.png
-[image-16]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-16.png
-[image-17]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-17.png
-[image-18]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-18.png
-[image-19]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-19.png
-[image-20]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-20.png
-[image-21]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-21.png
-[image-22]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-22.png
-[image-23]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-23.png
-[image-24]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-24.png
-[image-25]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-25.png
-[image-26]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-26.png
-[image-27]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-27.png
-[image-28]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-28.png
-[image-29]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-29.png
-[image-30]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-online-check-in-app-with-power-apps-30.png
+[image-01]: /2020/04/building-online-check-in-app-with-power-apps-01-en.png
+[image-02]: /2020/04/building-online-check-in-app-with-power-apps-02.png
+[image-03]: /2020/04/building-online-check-in-app-with-power-apps-03.png
+[image-04]: /2020/04/building-online-check-in-app-with-power-apps-04.png
+[image-05]: /2020/04/building-online-check-in-app-with-power-apps-05.png
+[image-06]: /2020/04/building-online-check-in-app-with-power-apps-06.png
+[image-07]: /2020/04/building-online-check-in-app-with-power-apps-07.png
+[image-08]: /2020/04/building-online-check-in-app-with-power-apps-08.png
+[image-09]: /2020/04/building-online-check-in-app-with-power-apps-09.png
+[image-10]: /2020/04/building-online-check-in-app-with-power-apps-10.png
+[image-11]: /2020/04/building-online-check-in-app-with-power-apps-11.png
+[image-12]: /2020/04/building-online-check-in-app-with-power-apps-12.png
+[image-13]: /2020/04/building-online-check-in-app-with-power-apps-13.png
+[image-14]: /2020/04/building-online-check-in-app-with-power-apps-14.png
+[image-15]: /2020/04/building-online-check-in-app-with-power-apps-15.png
+[image-16]: /2020/04/building-online-check-in-app-with-power-apps-16.png
+[image-17]: /2020/04/building-online-check-in-app-with-power-apps-17.png
+[image-18]: /2020/04/building-online-check-in-app-with-power-apps-18.png
+[image-19]: /2020/04/building-online-check-in-app-with-power-apps-19.png
+[image-20]: /2020/04/building-online-check-in-app-with-power-apps-20.png
+[image-21]: /2020/04/building-online-check-in-app-with-power-apps-21.png
+[image-22]: /2020/04/building-online-check-in-app-with-power-apps-22.png
+[image-23]: /2020/04/building-online-check-in-app-with-power-apps-23.png
+[image-24]: /2020/04/building-online-check-in-app-with-power-apps-24.png
+[image-25]: /2020/04/building-online-check-in-app-with-power-apps-25.png
+[image-26]: /2020/04/building-online-check-in-app-with-power-apps-26.png
+[image-27]: /2020/04/building-online-check-in-app-with-power-apps-27.png
+[image-28]: /2020/04/building-online-check-in-app-with-power-apps-28.png
+[image-29]: /2020/04/building-online-check-in-app-with-power-apps-29.png
+[image-30]: /2020/04/building-online-check-in-app-with-power-apps-30.png
 
 [post series 1]: /2020/04/01/capturing-images-from-browser-to-azure-blob-storage-via-azure-functions/
 [post series 2]: /2020/04/08/identifying-faces-through-azure-functions-using-face-api/

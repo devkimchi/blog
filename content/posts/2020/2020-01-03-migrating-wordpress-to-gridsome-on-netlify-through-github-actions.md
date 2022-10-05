@@ -11,7 +11,7 @@ tags:
 - netlify
 - github-actions
 - migration
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/01/migrating-wordpress-to-gridsome-on-netlify-through-github-actions-00.png
+cover: /2020/01/migrating-wordpress-to-gridsome-on-netlify-through-github-actions-00.png
 fullscreen: true
 ---
 
@@ -180,8 +180,8 @@ https://gist.github.com/justinyoo/53cefa22732c8bc33348aa99e0674a37?file=github-a
 We all complete the blog migration from Wordpress to gridsome. Now, I don't have to worry about maintenance unless GitHub shuts down.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/01/migrating-wordpress-to-gridsome-on-netlify-through-github-actions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/01/migrating-wordpress-to-gridsome-on-netlify-through-github-actions-02.png
+[image-01]: /2020/01/migrating-wordpress-to-gridsome-on-netlify-through-github-actions-01.png
+[image-02]: /2020/01/migrating-wordpress-to-gridsome-on-netlify-through-github-actions-02.png
 
 [jc]: https://justinchronicles.net
 [ac]: https://blog.aliencube.org

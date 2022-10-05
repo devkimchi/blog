@@ -9,7 +9,7 @@ tags:
 - github-actions
 - gitops
 - event-scheduling
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-00.png
+cover: /2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-00.png
 fullscreen: true
 ---
 
@@ -134,8 +134,8 @@ How do you feel like? Is it similar to GitOps?
 So far, we've walked through how we used [Azure Durable Functions][az func durable] and [GitHub Actions][gh actions] in the context of [GitOps][weaveworks gitops] to schedule blog posts. It's like a very comprehensive example that uses [Durable Functions][az func durable] and [GitHub Actions][gh actions]. If you've been using a GitHub repository to host your blog, now you can schedule your new posts!
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-02.png
+[image-01]: /2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-01.png
+[image-02]: /2020/03/scheduling-posts-with-gitops-durable-functions-and-github-actions-02.png
 
 [post serverless]: https://martinfowler.com/articles/serverless.html
 [post prev]: https://devkimchi.com/2020/01/03/migrating-wordpress-to-gridsome-on-netlify-through-github-actions/

@@ -9,7 +9,7 @@ tags:
 - requestbin
 - stateful-api
 - event-sourcing
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-requestbin-with-durable-functions-00.png
+cover: /2020/04/building-requestbin-with-durable-functions-00.png
 fullscreen: true
 ---
 
@@ -120,12 +120,12 @@ Once completed, all records related to the entity have gone.
 So far, we've implemented a very simple RequestBin app, using [Durable Functions][az func durable]. If we add UI, it will be more elegant. The point of this exercise is to experiment with the "Stateful-ness" of [Durable Functions][az func durable] not just for orchestration purpose but also for direct handling purpose. I hope this experiment can give you a more useful idea for your work.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-requestbin-with-durable-functions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-requestbin-with-durable-functions-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-requestbin-with-durable-functions-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-requestbin-with-durable-functions-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-requestbin-with-durable-functions-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/building-requestbin-with-durable-functions-06.png
+[image-01]: /2020/04/building-requestbin-with-durable-functions-01.png
+[image-02]: /2020/04/building-requestbin-with-durable-functions-02.png
+[image-03]: /2020/04/building-requestbin-with-durable-functions-03.png
+[image-04]: /2020/04/building-requestbin-with-durable-functions-04.png
+[image-05]: /2020/04/building-requestbin-with-durable-functions-05.png
+[image-06]: /2020/04/building-requestbin-with-durable-functions-06.png
 
 [post gitops]: /2020/03/25/scheduling-posts-with-gitops-durable-functions-and-github-actions/
 

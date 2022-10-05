@@ -9,7 +9,7 @@ tags:
 - powerapps
 - naver-map-api
 - facade
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/building-powerapp-with-naver-map-api-00.png
+cover: /2020/03/building-powerapp-with-naver-map-api-00.png
 fullscreen: true
 ---
 
@@ -63,11 +63,11 @@ Now we can see the Naver Map on [Power Apps][power apps]! Once the [Azure Functi
 So far, we've discussed how we can leverage an [Azure Functions][az func] app as a facade, in case we can't directly access to a third-party API from [Power Apps][power apps]. In fact, I just use an [Azure Functions][az func] code, but we can use either [Power Automate][power automate] or [Logic App][az logapp]. The main idea for [Power Apps][power apps] is how to make use of a facade pattern. I'll leave either [Power Automate][power automate] or [Logic App][az logapp] facade to you.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/building-powerapp-with-naver-map-api-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/building-powerapp-with-naver-map-api-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/building-powerapp-with-naver-map-api-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/building-powerapp-with-naver-map-api-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/03/building-powerapp-with-naver-map-api-05.png
+[image-01]: /2020/03/building-powerapp-with-naver-map-api-01.png
+[image-02]: /2020/03/building-powerapp-with-naver-map-api-02.png
+[image-03]: /2020/03/building-powerapp-with-naver-map-api-03.png
+[image-04]: /2020/03/building-powerapp-with-naver-map-api-04.png
+[image-05]: /2020/03/building-powerapp-with-naver-map-api-05.png
 
 [mvp cana]: https://mvp.microsoft.com/PublicProfile/5001865
 [mvp shane]: https://twitter.com/ShanesCows

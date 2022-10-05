@@ -9,7 +9,7 @@ tags:
 - azure-keyvault
 - pro-tips
 - local-dev
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-00.png
+cover: /2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-00.png
 fullscreen: true
 ---
 
@@ -95,9 +95,9 @@ Then replace the existing `Environment.GetEnvironmentVariable()` methods with th
 So far, we've looked three different ways to get [Azure Key Vault][az kv] references from [Azure Functions][az func]. As all three approaches have their own pros and cons, I can't say which one you should use. I'll leave that to you to make the right decision for your organisation.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-03.png
+[image-01]: /2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-01.png
+[image-02]: /2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-02.png
+[image-03]: /2020/04/3-ways-referencing-azure-key-vault-from-azure-functions-03.png
 
 [post azfunc mi]: /2019/01/03/accessing-key-vault-from-azure-functions-with-managed-identity/
 

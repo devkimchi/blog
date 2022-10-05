@@ -9,7 +9,7 @@ tags:
 - html-media-capture
 - azure-blob-storage
 - covid-19
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/capturing-images-from-browser-to-azure-blob-storage-via-azure-functions-00.png
+cover: /2020/04/capturing-images-from-browser-to-azure-blob-storage-via-azure-functions-00.png
 fullscreen: true
 ---
 
@@ -80,8 +80,8 @@ By this far, you can take your face on a web browser and save it to [Azure Blob 
 So far, as the first step of the blog series, we take a photo on a web browser and save it to [Azure Blob Storage][az storage blob] through [Azure Functions][az func]. The stored images will be used to identify whether my picture is actually me or not. Let's run the face recognition based on the stored faces in the [next post][pose series 2].
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/capturing-images-from-browser-to-azure-blob-storage-via-azure-functions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/04/capturing-images-from-browser-to-azure-blob-storage-via-azure-functions-02.jpeg
+[image-01]: /2020/04/capturing-images-from-browser-to-azure-blob-storage-via-azure-functions-01.png
+[image-02]: /2020/04/capturing-images-from-browser-to-azure-blob-storage-via-azure-functions-02.jpeg
 
 [post series 2]: /2020/04/08/identifying-faces-through-azure-functions-using-face-api
 [post series 3]: /2020/04/15/building-online-check-in-app-with-power-apps/
