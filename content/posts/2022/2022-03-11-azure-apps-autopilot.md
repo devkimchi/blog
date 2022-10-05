@@ -9,7 +9,7 @@ tags:
 - autopilot
 - github-actions
 - developer-experience
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2022/03/azure-apps-autopilot-00.png
+cover: /2022/03/azure-apps-autopilot-00.png
 fullscreen: true
 ---
 
@@ -654,14 +654,14 @@ Although we've implemented the autopilot feature through GitHub Actions workflow
 So far, we've implemented the autopilot feature using various [GitHub Actions][gh actions] triggers and [Azure Bicep][az bicep]. So now, when you need to show off your PoC to your clients, as long as anyone can access your repository, they can create resources and deploy the app by themselves without having to learn deployment details. In the [next post][post 2], let's revise this autopilot feature with no GitHub Actions event triggers.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/03/azure-apps-autopilot-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/03/azure-apps-autopilot-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/03/azure-apps-autopilot-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/03/azure-apps-autopilot-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/03/azure-apps-autopilot-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/03/azure-apps-autopilot-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/03/azure-apps-autopilot-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/03/azure-apps-autopilot-08.png
+[image-01]: /2022/03/azure-apps-autopilot-01.png
+[image-02]: /2022/03/azure-apps-autopilot-02.png
+[image-03]: /2022/03/azure-apps-autopilot-03.png
+[image-04]: /2022/03/azure-apps-autopilot-04.png
+[image-05]: /2022/03/azure-apps-autopilot-05.png
+[image-06]: /2022/03/azure-apps-autopilot-06.png
+[image-07]: /2022/03/azure-apps-autopilot-07.png
+[image-08]: /2022/03/azure-apps-autopilot-08.png
 
 
 [post 1]: /2022/03/11/azure-apps-autopilot/

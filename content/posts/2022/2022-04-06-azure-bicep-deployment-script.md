@@ -9,7 +9,7 @@ tags:
 - autopilot
 - bicep
 - developer-experience
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2022/04/azure-bicep-deployment-script-00.png
+cover: /2022/04/azure-bicep-deployment-script-00.png
 fullscreen: true
 ---
 
@@ -186,10 +186,10 @@ Did you complete all the steps? Then go to [APIM][az apim] and visit one of the 
 So far, we've walked through the [Azure Bicep][az bicep]'s [deployment script][az bicep ds] resources and revised the autopilot feature without needing to rely on [GitHub Actions][gh actions], as mentioned in the [previous post][post 1]. Now, you can hand over your repository to your sales representatives or other dev units to take a look with no knowledge of your application set-up. How easy is that?
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/04/azure-bicep-deployment-script-01-en.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/04/azure-bicep-deployment-script-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/04/azure-bicep-deployment-script-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/04/azure-bicep-deployment-script-04.png
+[image-01]: /2022/04/azure-bicep-deployment-script-01-en.png
+[image-02]: /2022/04/azure-bicep-deployment-script-02.png
+[image-03]: /2022/04/azure-bicep-deployment-script-03.png
+[image-04]: /2022/04/azure-bicep-deployment-script-04.png
 
 
 [post 1]: /2022/03/11/azure-apps-autopilot/

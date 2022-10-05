@@ -9,7 +9,7 @@ tags:
 - blazor-wasm
 - staticwebapps
 - headless-cms
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-00.png
+cover: /2022/05/building-headless-cms-with-blazor-wasm-00.png
 fullscreen: true
 ---
 
@@ -317,19 +317,19 @@ Once you complete publishing your Blazor WebAssembly app with the proxy API app,
 So far, I've walked through how to build a [Blazor WebAssembly][blazor wasm] app with an [Azure Functions][az fncapp] proxy API and use serviced WordPress site as a data source. Also, I've published this app to [Azure Static Web Apps][az swa] instance. Although this post has only implemented the high-level concepts, it has basically touched almost everything you need. Therefore, it's up to you to use as many API endpoints as possible and make the UI prettier. Then, you can still use the existing WordPress site as your data source of truth.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/devkimchi/2022/05/building-headless-cms-with-blazor-wasm-13.png
+[image-01]: /2022/05/building-headless-cms-with-blazor-wasm-01.png
+[image-02]: /2022/05/building-headless-cms-with-blazor-wasm-02.png
+[image-03]: /2022/05/building-headless-cms-with-blazor-wasm-03.png
+[image-04]: /2022/05/building-headless-cms-with-blazor-wasm-04.png
+[image-05]: /2022/05/building-headless-cms-with-blazor-wasm-05.png
+[image-06]: /2022/05/building-headless-cms-with-blazor-wasm-06.png
+[image-07]: /2022/05/building-headless-cms-with-blazor-wasm-07.png
+[image-08]: /2022/05/building-headless-cms-with-blazor-wasm-08.png
+[image-09]: /2022/05/building-headless-cms-with-blazor-wasm-09.png
+[image-10]: /2022/05/building-headless-cms-with-blazor-wasm-10.png
+[image-11]: /2022/05/building-headless-cms-with-blazor-wasm-11.png
+[image-12]: /2022/05/building-headless-cms-with-blazor-wasm-12.png
+[image-13]: /2022/05/building-headless-cms-with-blazor-wasm-13.png
 
 
 [post-1]: /2020/06/17/hosting-blazor-web-assembly-app-on-azure-static-webapp/
