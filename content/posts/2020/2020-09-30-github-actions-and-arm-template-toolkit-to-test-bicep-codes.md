@@ -9,7 +9,7 @@ tags:
 - bicep
 - github-actions
 - testing
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-00.png
+cover: /2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-00.png
 fullscreen: true
 ---
 
@@ -84,9 +84,9 @@ But, we should make sure one thing. Before running ARM TTK, the ARM template wor
 So far, we've set up the CI/CD pipeline with [Bicep CLI][gh actions bicep] and [ARM TTK][gh actions arm ttk] to build and verify the `.bicep` files. Can you play them around on your own pipelines?
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-03.png
+[image-01]: /2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-01.png
+[image-02]: /2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-02.png
+[image-03]: /2020/09/github-actions-and-arm-template-toolkit-to-test-bicep-codes-03.png
 
 [post 1]: /2020/09/09/bicep-sneak-peek/
 [post 3]: /2021/04/21/bicep-refreshed/

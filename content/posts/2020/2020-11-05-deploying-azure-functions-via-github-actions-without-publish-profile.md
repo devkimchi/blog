@@ -9,7 +9,7 @@ tags:
 - github-actions
 - azure
 - publish-profile
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/11/deploying-azure-functions-via-github-actions-without-publish-profile-00.png
+cover: /2020/11/deploying-azure-functions-via-github-actions-without-publish-profile-00.png
 fullscreen: true
 ---
 
@@ -78,7 +78,7 @@ With this action, we don't have to know the publish profile, but the workflow ta
 So far, we've walked through how we can deploy Azure Functions app through [GitHub Actions][gh actions], with no knowledge of the publish profile and reset the profile. I hope this approach would help build your CI/CD pipeline.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/11/deploying-azure-functions-via-github-actions-without-publish-profile-01.png
+[image-01]: /2020/11/deploying-azure-functions-via-github-actions-without-publish-profile-01.png
 
 [post 1]: /2020/10/07/3-ways-mapping-apex-domains-to-azure-functions/
 [post 2]: /2020/10/14/lets-encrypt-ssl-certificate-on-azure-functions/

@@ -9,7 +9,7 @@ tags:
 - apex-domain
 - lets-encrypt
 - ssl-certificate
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-00.png
+cover: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-00.png
 fullscreen: true
 ---
 
@@ -124,18 +124,18 @@ Now we can see the SSL certificate is properly bound with the custom APEX domain
 So far, we've walked through how [Let's Encrypt][letsencrypt] SSL certificate can be bound with a Custom APEX domain on [Azure Functions][az func] instance. In the [next post][post 3], I'll discuss how to automatically update the the A Record of [Azure DNS][az dns] when the inbound IP of the Azure Functions instance is changed.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-01-en.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-02-en.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-03-en.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-04-en.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-05-en.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-06-en.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-07-en.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-08-en.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-09-en.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-10-en.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-11-en.png
-[image-12]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/lets-encrypt-ssl-certificate-on-azure-functions-12-en.png
+[image-01]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-01-en.png
+[image-02]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-02-en.png
+[image-03]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-03-en.png
+[image-04]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-04-en.png
+[image-05]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-05-en.png
+[image-06]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-06-en.png
+[image-07]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-07-en.png
+[image-08]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-08-en.png
+[image-09]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-09-en.png
+[image-10]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-10-en.png
+[image-11]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-11-en.png
+[image-12]: /2020/10/lets-encrypt-ssl-certificate-on-azure-functions-12-en.png
 
 [post 1]: /2020/10/07/3-ways-mapping-apex-domains-to-azure-functions/
 [post 2]: /2020/10/14/lets-encrypt-ssl-certificate-on-azure-functions/

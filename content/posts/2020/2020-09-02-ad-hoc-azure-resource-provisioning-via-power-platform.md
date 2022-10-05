@@ -9,7 +9,7 @@ tags:
 - azure-resource-manager
 - provisioning
 - productivity
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-00.png
+cover: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-00.png
 fullscreen: true
 ---
 
@@ -130,19 +130,19 @@ And after the resource provisioning is complete, the status will look like this:
 So far, we've walked through how we built Power Automate workflows and Power Apps for ad-hoc Azure resource provisioning. We only used one use case here for simplicity, but there are more complex real-world examples with many ad-hoc scenarios in your business domain. If you can materialise those scenarios based on priority and frequency, it will increase productivity for sure.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-08.png
-[image-09]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-09.png
-[image-10]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-10.png
-[image-11]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-11.png
-[image-12]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-12.png
-[image-13]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-13.png
+[image-01]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-01.png
+[image-02]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-02.png
+[image-03]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-03.png
+[image-04]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-04.png
+[image-05]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-05.png
+[image-06]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-06.png
+[image-07]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-07.png
+[image-08]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-08.png
+[image-09]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-09.png
+[image-10]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-10.png
+[image-11]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-11.png
+[image-12]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-12.png
+[image-13]: /2020/09/ad-hoc-azure-resource-provisioning-via-power-platform-13.png
 
 [post prev]: /2020/08/26/app-provisioning-on-azure-vm-with-chocolatey-for-live-streaming/
 

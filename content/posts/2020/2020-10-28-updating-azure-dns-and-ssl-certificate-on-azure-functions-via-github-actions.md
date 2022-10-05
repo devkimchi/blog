@@ -9,7 +9,7 @@ tags:
 - azure-dns
 - ssl-certificate
 - github-actions
-cover: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-00.png
+cover: /2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-00.png
 fullscreen: true
 ---
 
@@ -162,14 +162,14 @@ If the A record is up-to-date, the workflow stops there and doesn't take the fur
 So far, we use [GitHub Actions workflow][gh actions] to regularly check the inbound IP address of the [Azure Functions][az func] instance and update the change to [Azure DNS][az dns], renew an SSL certificate, and sync the certificate with Azure Functions instance. In the [next post][post 4], I'll discuss how to deploy the Azure Functions app through GitHub Actions without having to know the publish profile.
 
 
-[image-01]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-01.png
-[image-02]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-02.png
-[image-03]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-03.png
-[image-04]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-04.png
-[image-05]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-05.png
-[image-06]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-06.png
-[image-07]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-07.png
-[image-08]: https://sa0blogs.blob.core.windows.net/devkimchi/2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-08.png
+[image-01]: /2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-01.png
+[image-02]: /2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-02.png
+[image-03]: /2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-03.png
+[image-04]: /2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-04.png
+[image-05]: /2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-05.png
+[image-06]: /2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-06.png
+[image-07]: /2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-07.png
+[image-08]: /2020/10/updating-azure-dns-and-ssl-certificate-on-azure-functions-via-github-actions-08.png
 
 [post 1]: /2020/10/07/3-ways-mapping-apex-domains-to-azure-functions/
 [post 2]: /2020/10/14/lets-encrypt-ssl-certificate-on-azure-functions/
