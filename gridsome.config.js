@@ -60,6 +60,8 @@ module.exports = {
       use: 'gridsome-plugin-rss',
       options: {
         contentTypeName: 'Post',
+        latest: true,
+        dateField: 'date',
         feedOptions: {
           title: 'Dev Kimchi',
           feed_url: 'https://devkimchi.com/feed.xml',
