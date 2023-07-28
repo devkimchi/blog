@@ -17,6 +17,10 @@ fullscreen: true
 
 Throughout this post, I'm going to discuss how [GitHub Copilot][gh copilot] helps us write the APIM policy documents, with a few technical scenarios.
 
+## APIM instance provisioning
+
+I'm not going to discuss how to provision an APIM instance in this article. But here's the reference you can do it by yourself &ndash; [Quickstart: Create a new Azure API Management service instance by using the Azure portal][apim quickstart portal]
+
 ## APIM Policy documents at various levels
 
 First of all, as soon as you provisions a new APIM instance, you'll see the default global policy document as follows:
@@ -32,51 +36,9 @@ First of all, as soon as you provisions a new APIM instance, you'll see the defa
 </policies>
 ```
 
-![APIM Default Policy Document &ndash; Global level][image-01]
+You can apply the policy documents at the various level of scopes. This document gives you better understaning of the scopes &ndash; [Policy scopes and statements in Azure API Management][apim policies scopes].
 
-Also, each API has its own default policy document as follows:
-
-```xml
-<policies>
-    <inbound>
-        <base />
-    </inbound>
-    <backend>
-        <base />
-    </backend>
-    <outbound>
-        <base />
-    </outbound>
-    <on-error>
-        <base />
-    </on-error>
-</policies>
-```
-
-![APIM Default Policy Document &ndash; API level][image-02]
-
-Likewise, each operation has its own default policy document as follows:
-
-```xml
-<policies>
-    <inbound>
-        <base />
-    </inbound>
-    <backend>
-        <base />
-    </backend>
-    <outbound>
-        <base />
-    </outbound>
-    <on-error>
-        <base />
-    </on-error>
-</policies>
-```
-
-![APIM Default Policy Document &ndash; Operation level][image-03]
-
-Once you get these default policy document, you need to define your own policy document based on your business logic. At this point, you can use the policy snippets in the picture below.
+Like above, once you get the default policy document, you need to define your own policy document based on your business logic. At this point, you can use the policy snippets in the picture below.
 
 ![APIM Policy Snippets][image-04]
 
@@ -226,6 +188,8 @@ So far, I've demonstrated how GitHub Copilot helps us write the APIM policy docu
 If you want to learn more about APIM and APIM policies, the following links might be helpful.
 
 - [Azure API Management key concepts][apim]
+- [Quickstart: Create a new Azure API Management service instance by using the Azure portal][apim quickstart portal]
+- [Azure APIM policies][apim policies]
 - [Implement API Management][apim learn]
 
 [image-01]: /2023/07/gh-copilot-for-apim-policies-01.png
@@ -248,7 +212,9 @@ If you want to learn more about APIM and APIM policies, the following links migh
 [image-18]: /2023/07/gh-copilot-for-apim-policies-18.png
 
 [apim]: https://learn.microsoft.com/azure/api-management/api-management-key-concepts?WT.mc_id=dotnet-102583-juyoo
+[apim quickstart portal]: https://learn.microsoft.com/azure/api-management/get-started-create-service-instance?WT.mc_id=dotnet-102583-juyoo
 [apim policies]: https://learn.microsoft.com/azure/api-management/api-management-howto-policies?WT.mc_id=dotnet-102583-juyoo
+[apim policies scopes]: https://learn.microsoft.com/azure/api-management/api-management-howto-policies?WT.mc_id=dotnet-102583-juyoo#scopes
 [apim learn]: https://learn.microsoft.com/training/paths/az-204-implement-api-management/?WT.mc_id=dotnet-102583-juyoo
 
 [aoai]: https://learn.microsoft.com/azure/ai-services/openai/overview?WT.mc_id=dotnet-102583-juyoo
