@@ -160,13 +160,13 @@ If you want to learn more options about containers with MSBuild, the following l
 
 [gh sample]: https://github.com/devkimchi/msbuild-for-containers
 
-[dotnet sdk]: https://dotnet.microsoft.com/download/dotnet/8.0?WT.mc_id=dotnet-122171-juyoo
-[dotnet aspire]: https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview?WT.mc_id=dotnet-122171-juyoo
-[dotnet aspire workload]: https://learn.microsoft.com/dotnet/aspire/fundamentals/setup-tooling?WT.mc_id=dotnet-122171-juyoo
+[dotnet sdk]: https://dotnet.microsoft.com/download/dotnet/8.0?WT.mc_id=dotnet-147226-juyoo
+[dotnet aspire]: https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview?WT.mc_id=dotnet-147226-juyoo
+[dotnet aspire workload]: https://learn.microsoft.com/dotnet/aspire/fundamentals/setup-tooling?WT.mc_id=dotnet-147226-juyoo
 [dotnet aspire aspirate]: https://github.com/prom3theu5/aspirational-manifests
-[dotnet publish container]: https://learn.microsoft.com/dotnet/core/docker/publish-as-container?WT.mc_id=dotnet-122171-juyoo
-[dotnet container images]: https://learn.microsoft.com/dotnet/core/docker/container-images?WT.mc_id=dotnet-122171-juyoo
-[dotnet container chiseled]: https://devblogs.microsoft.com/dotnet/announcing-dotnet-chiseled-containers/?WT.mc_id=dotnet-122171-juyoo
+[dotnet publish container]: https://learn.microsoft.com/dotnet/core/docker/publish-as-container?WT.mc_id=dotnet-147226-juyoo
+[dotnet container images]: https://learn.microsoft.com/dotnet/core/docker/container-images?WT.mc_id=dotnet-147226-juyoo
+[dotnet container chiseled]: https://devblogs.microsoft.com/dotnet/announcing-dotnet-chiseled-containers/?WT.mc_id=dotnet-147226-juyoo
 
 [docker desktop]: https://docs.docker.com/desktop/
 
