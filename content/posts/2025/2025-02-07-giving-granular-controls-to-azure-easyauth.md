@@ -95,8 +95,8 @@ A few NuGet packages are available for ASP.NET Core web applications to integrat
 1. Deploy the app to either Azure App Service or Azure Container Apps.
 1. After deployment, configure the authentication settings like:
 
-   ![Azure Container Apps 인증 설정 화면][image-01]
-   ![Azure App Service 인증 설정 화면][image-02]
+   ![Authentication Settings - Azure Container Apps][image-01]
+   ![Authentication Settings - Azure App Service][image-02]
 
 1. Open your web browser and navigate the page component you applied authorisation, and see the 401 (Unauthorized) error.
 1. Sign into the web app through `/.auth/login/aad` and visite the page again, and verify you're able to see the content on that page.
@@ -116,11 +116,11 @@ It's mostly the same as using Microsoft Entra ID, except using a different NuGet
 1. Open the `Program.cs` file and find the code line, `var app = builder.Build();`. Then, add dependencies for authentication and authorisation. Make sure this time you use `GitHubEasyAuthAuthenticationHandler` instead of `EntraIDEasyAuthAuthenticationHandler`.
 
     ```csharp
-    // 👇👇👇 인증/권한부여 의존성 개체 추가
+    // 👇👇👇 Add dependencies for authentication/authorisation
     builder.Services.AddAuthentication(EasyAuthAuthenticationScheme.Name)
                     .AddAzureEasyAuthHandler<GitHubEasyAuthAuthenticationHandler>();
     builder.Services.AddAuthorization();
-    // 👆👆👆 인증/권한부여 의존성 개체 추가
+    // 👆👆👆 Add dependencies for authentication/authorisation
     
     var app = builder.Build();
     ```
